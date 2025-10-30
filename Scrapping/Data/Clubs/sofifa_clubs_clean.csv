@@ -1,0 +1,663 @@
+club,league_name,country_name,average_rating,coach_name,stadium_name
+Liverpool,Premier League,England,85,arne slot,Anfield
+FC Barcelona,La Liga,Spain,85,hans dieter flick,El Libertador
+Real Madrid,La Liga,Spain,85,xabier alonso olano,Estadio Santiago Bernabéu
+Arsenal,Premier League,England,84,mikel arteta amatriain,Emirates Stadium
+Manchester City,Premier League,England,84,josep guardiola i sala,Etihad Stadium
+FC Bayern München,Bundesliga,Germany,84,vincent kompany,Allianz Arena
+Inter,Serie A,Italy,84,cristian eugen chivu,Waldstadion
+Paris Saint-Germain,Ligue 1 Uber Eats,France,84,luis enrique martinez garcia,Parc des Princes
+Atlético Madrid,La Liga,Spain,82,diego pablo simeone,Wanda Metropolitano
+Newcastle United,Premier League,England,81,eddie howe,St. James' Park
+Tottenham Hotspur,Premier League,England,81,thomas frank,Tottenham Hotspur Stadium
+Borussia Dortmund,Bundesliga,Germany,81,andreas patz,Signal Iduna Park
+Napoli,Serie A,Italy,81,antonio conte,Stadio Diego Armando Maradona
+Aston Villa,Premier League,England,80,unai emery etxegoien,Villa Park
+Chelsea,Premier League,England,80,enzo maresca,Stamford Bridge
+Manchester United,Premier League,England,80,ruben filipe marques amorim,Old Trafford
+Juventus,Serie A,Italy,80,igor tudor,Juventus Arena
+AC Milan,Serie A,Italy,80,massimiliano allegri,Waldstadion
+Roma,Serie A,Italy,80,gian piero gasperini,Stadion Olympik
+Galatasaray SK,Turkish Süper Lig,Türkiye,80,okan buruk,RAMS Park
+Athletic Club,La Liga,Spain,80,ernesto valverde tejedor,Estadio San Mamés
+Crystal Palace,Premier League,England,79,oliver glasner,Selhurst Park
+Nottingham Forest,Premier League,England,79,angelos postecoglou,The City Ground
+Bayer 04 Leverkusen,Bundesliga,Germany,79,kasper hjulmand,BayArena
+Atalanta,Serie A,Italy,79,ivan juric,Stadio Classico
+Lazio,Serie A,Italy,79,maurizio sarri,Stadion Olympik
+Fenerbahçe SK,Turkish Süper Lig,Türkiye,79,domenico tedesco,Ülker Stadyumu
+Real Betis Balompié,La Liga,Spain,79,manuel luis pellegrini ripamonti,Estadio Benito Villamarín
+Olympique de Marseille,Ligue 1 Uber Eats,France,79,roberto de zerbi,Orange Vélodrome
+Sporting CP,Primeira Liga,Portugal,79,rui manuel gomes borges,Estádio José Alvalade
+Brighton & Hove Albion,Premier League,England,78,fabian hurzeler,The Amex Stadium
+Eintracht Frankfurt,Bundesliga,Germany,78,dino toppmoller,Deutsche Bank Park
+RB Leipzig,Bundesliga,Germany,78,ole werner,Red Bull Arena (Leipzig)
+AS Monaco,Ligue 1 Uber Eats,France,78,adolf hutter,Euro Arena
+AFC Bournemouth,Premier League,England,78,andoni iraola sagarna,Vitality Stadium
+Real Sociedad,La Liga,Spain,78,sergio francisco ramos,Reale Arena
+Villarreal CF,La Liga,Spain,78,marcelino garcia toral,Estadio de la Cerámica
+SL Benfica,Primeira Liga,Portugal,78,jose mario felix dos santos mourinho,Estádio da Luz
+Everton,Premier League,England,77,david moyes,Hill Dickinson Stadium
+West Ham United,Premier League,England,77,nuno herlander simoes espirito santo,London Stadium
+VfB Stuttgart,Bundesliga,Germany,77,sebastian hoeness,MHPArena
+Fiorentina,Serie A,Italy,77,stefano pioli,Stadio Classico
+Al Hilal,Saudi Pro League,Saudi Arabia,77,simone inzaghi,King Fahd International Stadium
+Brentford,Premier League,England,77,keith andrews,Gtech Community Stadium
+Fulham FC,Premier League,England,77,marco alexandre saraiva da silva,Craven Cottage
+VfL Wolfsburg,Bundesliga,Germany,77,paul simonis,Volkswagen Arena
+CA Osasuna,La Liga,Spain,77,alessio lisci,Estadio El Sadar
+Rayo Vallecano,La Liga,Spain,77,inigo perez,Estadio de Vallecas
+FC Porto,Primeira Liga,Portugal,77,francesco farioli,Estádio do Dragão
+Girona FC,La Liga,Spain,77,miguel angel sanchez munoz,Estadio de Montilivi
+PSV,Eredivisie,Netherlands,77,peter bosz,Philips Stadion
+Leeds United,Premier League,England,76,daniel farke,Elland Road
+Al Nassr,Saudi Pro League,Saudi Arabia,76,jorge fernando pinheiro de jesus,Stade Municipal
+Flamengo,Serie A,Brazil,76,filipe luis kasmirski,O Dromo
+Olympiacos FC,Greek Super League,Greece,76,jose luis mendilibar etxebarria,Waldstadion
+Torino,Serie A,Italy,76,marco baroni,Sanderson Park
+Lille OSC,Ligue 1 Uber Eats,France,76,bruno genesio,Decathlon Arena
+Olympique Lyonnais,Ligue 1 Uber Eats,France,76,mario jorge maciel pereira nascimento,Groupama Stadium
+Beşiktaş JK,Turkish Süper Lig,Türkiye,76,ali riza sergen yalcin,Tupras Stadyumu
+OGC Nice,Ligue 1 Uber Eats,France,76,franck haise,Waldstadion
+Stade Rennais FC,Ligue 1 Uber Eats,France,76,habib beye,Stade Municipal
+River Plate,Primera División,Argentina,76,marcelo daniel gallardo,El Monumental
+Al Ittihad,Saudi Pro League,Saudi Arabia,76,laurent blanc,King Abdullah Sports City
+Sunderland,Premier League,England,76,regis le bris,Stadium of Light
+Wolverhampton Wanderers,Premier League,England,76,vitor manuel de oliveira lopes pereira,Molineux Stadium
+Bologna,Serie A,Italy,76,vincenzo italiano,Euro Arena
+RC Celta,La Liga,Spain,76,claudio giraldez gonzalez,Estadio Abanca-Balaídos
+RCD Mallorca,La Liga,Spain,76,jagoba arrasate elustondo,Visit Mallorca Estadi
+Valencia CF,La Liga,Spain,76,carlos corberan vallet,Estadio Mestalla
+Como,Serie A,Italy,76,cesc fabregas,Town Park
+Burnley,Premier League,England,75,scott parker,Turf Moor
+Botafogo,Serie A,Brazil,75,davide ancelotti,O Dromo
+SK Slavia Praha,Czech First League,Czechia,75,jindrich trpisovsky,Stade Municipal
+Atlético Mineiro,Serie A,Brazil,75,jorge luis sampaoli moya,O Dromo
+Borussia Mönchengladbach,Bundesliga,Germany,75,eugen polanski,BORUSSIA-PARK
+SC Freiburg,Bundesliga,Germany,75,julian schuster,Europa-Park Stadion
+SV Werder Bremen,Bundesliga,Germany,75,horst steffen,Wohninvest Weserstadion
+1. FC Union Berlin,Bundesliga,Germany,75,steffen baumgart,Stadion An der Alten Försterei
+TSG 1899 Hoffenheim,Bundesliga,Germany,75,christian ilzer,PreZero Arena
+FC Augsburg,Bundesliga,Germany,75,sandro wagner,WWK Arena
+Getafe CF,La Liga,Spain,75,jose bordalas jimenez,Coliseum Alfonso Pérez
+Celtic,Scottish Premiership,Scotland,75,brendan rodgers,Celtic Park
+Boca Juniors,Primera División,Argentina,75,mariano andres herron,La Bombonera
+Palmeiras,Serie A,Brazil,75,abel fernando moreira ferreira,Estadio de las Artes
+1. FSV Mainz 05,Bundesliga,Germany,75,bo henriksen,Opel Arena
+Sevilla FC,La Liga,Spain,75,matias jesus almeyda,Ramón Sánchez-Pizjuán
+Ajax,Eredivisie,Netherlands,75,johnny heitinga,Johan Cruijff ArenA
+Feyenoord,Eredivisie,Netherlands,75,robin van persie,De Kuip
+Al Ahli SFC,Saudi Pro League,Saudi Arabia,74,matthias jaissle,King Abdullah Sports City
+Al Qadsiah FC,Saudi Pro League,Saudi Arabia,74,jose miguel gonzalez martin del campo,Stade Kokoto
+AEK Athens,Greek Super League,Greece,74,marko nikolic,Waldstadion
+Internacional,Serie A,Brazil,74,ramon angel diaz,O Dromo
+1. FC Köln,Bundesliga,Germany,74,lukas kwasniok,RheinEnergieStadion
+RC Lens,Ligue 1 Uber Eats,France,74,pierre sage,Stade Bollaert-Delelis
+RC Strasbourg Alsace,Ligue 1 Uber Eats,France,74,liam rosenior,Stade Municipal
+Panathinaikos FC,Greek Super League,Greece,74,christos kontis,Stadion Hanguk
+Sassuolo,Serie A,Italy,74,fabio grosso,Forest Park Stadium (Square Ground)
+Sporting Clube de Braga,Primeira Liga,Portugal,74,carlos vicens,Forest Park Stadium (Square Ground)
+Stade Brestois 29,Ligue 1 Uber Eats,France,74,eric roy,Crown Lane
+PAOK,Greek Super League,Greece,74,razvan lucescu,Stadio Classico
+Trabzonspor,Turkish Süper Lig,Türkiye,74,fatih tekke,Sanderson Park
+RCD Espanyol,La Liga,Spain,74,jose manuel gonzalez alvarez,Stage Front Stadium
+Paris FC,Ligue 1 Uber Eats,France,74,stephane gilli,Euro Arena
+Racing Club,Primera División,Argentina,74,gustavo adolfo costas makeira,Estadio Presidente Perón (El Cilindro)
+Sparta Praha,Czech First League,Czechia,73,brian priske pedersen,Waldstadion
+Corinthians,Serie A,Brazil,73,dorival silvestre junior,Stadio Classico
+Hamburger SV,Bundesliga,Germany,73,merlin polzin,Volksparkstadion
+Parma,Serie A,Italy,73,carlos anton cuesta,Arena d'Oro
+Cagliari,Serie A,Italy,73,fabio pisacane,Stadio Classico
+Udinese,Serie A,Italy,73,kosta runjaic,Udinese Arena
+Levante UD,La Liga,Spain,73,julian calero fernandez,Estadio Ciutat de València
+Cremonese,Serie A,Italy,73,davide nicola,Stadio Classico
+Rangers FC,Scottish Premiership,Scotland,73,russell martin,Ibrox Stadium
+São Paulo,Serie A,Brazil,73,hernan jorge crespo,El Monumento
+Ipswich Town,EFL Championship,England,73,kieran mckenna,Portman Road
+Leicester City,EFL Championship,England,73,marti cifuentes corvillo,King Power Stadium
+AZ Alkmaar,Eredivisie,Netherlands,73,maarten martens,Stadion Neder
+Medipol Başakşehir FK,Turkish Süper Lig,Türkiye,73,nuri sahin,Stadion Neder
+KRC Genk,Belgian Pro League,Belgium,73,thorsten fink,Molton Road
+Hellas Verona FC,Serie A,Italy,73,paolo zanetti,Sanderson Park
+Deportivo Alavés,La Liga,Spain,73,eduardo german coudet,Estadio de Mendizorroza
+Elche CF,La Liga,Spain,73,eder sarabia armesto,Estadio Martínez Valero
+Estudiantes de La Plata,Primera División,Argentina,73,eduardo rodrigo dominguez,Stadio Classico
+Genoa,Serie A,Italy,73,patrick vieira,Stadion Europa
+Union Saint-Gilloise,Belgian Pro League,Belgium,73,sebastien pocognoli,Oktigann Park
+Vélez Sarsfield,Primera División,Argentina,73,guillermo barros schelotto,Estadio Nacional
+Club Brugge KV,Belgian Pro League,Belgium,73,nicky hayen,Ivy Lane
+Real Oviedo,La Liga,Spain,73,veljko paunovic,Stadion Europa
+Sheffield United,EFL Championship,England,72,chris wilder,Bramall Lane
+Coventry City,EFL Championship,England,72,frank lampard,Coventry Building Society Arena
+Independiente,Primera División,Argentina,72,gustavo enrique domingo quinteros desabato,Estadio Libertadores de América
+Southampton,EFL Championship,England,72,william still,St. Mary's Stadium
+Toulouse FC,Ligue 1 Uber Eats,France,72,carles martinez novell,Stadion Europa
+Talleres,Primera División,Argentina,72,carlos alberto tevez,O Dromo
+FC København,Superliga,Denmark,72,jacob neestrup hansen,Eastpoint Arena
+Palermo FC,Serie B,Italy,72,filippo inzaghi,Stadio Classico
+Fluminense,Serie A,Brazil,72,luis francisco zubeldia,O Dromo
+Cruzeiro,Serie A,Brazil,72,wesley carvalho,O Dromo
+Lanús,Primera División,Argentina,72,ricardo alberto zielinski,Stadio Classico
+Bahia,Serie A,Brazil,72,rogerio mucke ceni,Estadio de las Artes
+UD Almería,La Liga 2,Spain,72,joan francesc ferrer sicilia,Power Horse Stadium
+FC Nantes,Ligue 1 Uber Eats,France,72,luis manuel ferreira de castro,Stade de la Beaujoire
+Ferencvárosi Torna Club,Nemzeti Bajnokság I,Hungary,72,robbie keane,Stadion Neder
+Birmingham City,EFL Championship,England,72,chris davies,Ivy Lane
+Lecce,Serie A,Italy,72,eusebio di francesco,Stadio Classico
+Grêmio,Serie A,Brazil,72,james freitas,Sanderson Park
+1. FC Heidenheim 1846,Bundesliga,Germany,72,marco konrad,Molton Road
+Viktoria Plzeň,Czech First League,Czechia,72,miroslav koubek,Court Lane
+Pisa,Serie A,Italy,72,alberto gilardino,Stadion 23. Maj
+Belgrano de Córdoba,Primera División,Argentina,72,ricardo alberto zielinski,Stadio Classico
+Dynamo Kyiv,Premier League,Ukraine,72,oleksandr shovkovsky,Stadion Olympik
+Shakhtar Donetsk,Premier League,Ukraine,72,arda turan,Donbass Arena
+Monza,Serie B,Italy,72,paolo bianco,Court Lane
+UD Las Palmas,La Liga 2,Spain,72,luis garcia fernandez,Estadio de Gran Canaria
+Samsunspor,Turkish Süper Lig,Türkiye,72,thomas reis,Stadion Europa
+Atlético Nacional,Primera División,Colombia,72,javier marcelo gandolfi,El Libertador
+Rosario Central,Primera División,Argentina,72,ariel enrique holan,Stadio Classico
+Inter Miami,Major League Soccer,United States,72,javier alejandro mascherano,Chase Stadium
+Norwich City,EFL Championship,England,71,liam manning,Carrow Road
+Middlesbrough,EFL Championship,England,71,rob edwards,Riverside Stadium
+AS Saint-Étienne,Ligue 2 BKT,France,71,eirik horneland,Ivy Lane
+Seattle Sounders FC,Major League Soccer,United States,71,brian schmetzer,Lumen Field
+AJ Auxerre,Ligue 1 Uber Eats,France,71,christophe pelissier,Forest Park Stadium (Square Ground)
+Newell's Old Boys,Primera División,Argentina,71,cristian gaston fabbiani,Estadio Nacional
+Huracán,Primera División,Argentina,71,frank dario kudelka,El Libertador
+Los Angeles FC,Major League Soccer,United States,71,steven cherundolo,BMO Stadium
+West Bromwich Albion,EFL Championship,England,71,ryan mason,The Hawthorns
+FC Utrecht,Eredivisie,Netherlands,71,ron jans,Ivy Lane
+FC Twente,Eredivisie,Netherlands,71,john van den brom,Waldstadion
+Bristol City,EFL Championship,England,71,gerhard struber,Ashton Gate
+FC Basel 1893,Super League,Switzerland,71,ludovic magnin,St. Jakob-Park
+FK Bodø/Glimt,Eliteserien,Norway,71,kjetil knutsen,Town Park
+Wrexham,EFL Championship,England,71,phil parkinson,Crown Lane
+Hull City,EFL Championship,England,71,sergej jakirovic,MKM Stadium
+Alianza Lima,Liga I,Peru,71,nestor raul gorosito,Stadio Classico
+Swansea City,EFL Championship,England,71,alan sheehan,Swansea.com Stadium
+Famalicão,Primeira Liga,Portugal,71,daniel jose garcez pacheco,Longville Stadium
+Argentinos Juniors,Primera División,Argentina,71,nicolas ignacio diez parajon,Arena del Centenario
+Le Havre AC,Ligue 1 Uber Eats,France,71,didier digard,Waldstadion
+Fortaleza,Serie A,Brazil,71,martin palermo,O Dromo
+Dinamo Zagreb,Hrvatska nogometna liga,Croatia,71,mario kovacevic,Euro Arena
+FC Lorient,Ligue 1 Uber Eats,France,71,olivier pantaloni,Molton Road
+RSC Anderlecht,Belgian Pro League,Belgium,71,besnik hasi,Stade Municipal
+FC Midtjylland,Superliga,Denmark,71,mike tullberg,Stadion Neder
+Atlanta United,Major League Soccer,United States,71,ronny deila,Mercedes-Benz Stadium
+Peñarol,Primera División,Uruguay,71,diego vicente aguirre camblor,El Libertador
+FC St. Pauli,Bundesliga,Germany,71,alexander blessin,Millerntor-Stadion
+FC Cincinnati,Major League Soccer,United States,71,pat noonan,Stadion Europa
+Watford,EFL Championship,England,70,paulo cesar pezzolano suarez,Vicarage Road
+Hajduk Split,Hrvatska nogometna liga,Croatia,70,gonzalo manuel garcia garcia,Stadion Hanguk
+Preston North End,EFL Championship,England,70,paul heckingbottom,Ivy Lane
+Stoke City,EFL Championship,England,70,mark robins,Stoke City FC Stadium
+Queens Park Rangers,EFL Championship,England,70,julien stephan,Kiyan Prince Foundation
+CD Leganés,La Liga 2,Spain,70,francisco jose lopez fernandez,Municipal de Butarque
+Minnesota United FC,Major League Soccer,United States,70,cameron knowles,Stadion Hanguk
+GD Estoril Praia,Primeira Liga,Portugal,70,bryant lazaro,Oktigann Park
+Portland Timbers,Major League Soccer,United States,70,phil neville,Providence Park
+Sampdoria,Serie B,Italy,70,massimo donati,Stadion Europa
+FC Lugano,Super League,Switzerland,70,mattia croci torti,Euro Park
+Vasco da Gama,Serie A,Brazil,70,fernando diniz silva,Arena d'Oro
+Malmö FF,Allsvenskan,Sweden,70,anes mravac,Stade Municipal
+FC Metz,Ligue 1 Uber Eats,France,70,stephane le mignan,Forest Park Stadium (Square Ground)
+Cerro Porteño,División de Fútbol Profesional,Paraguay,70,jorge rodrigo bava,Estadio Nacional
+Legia Warszawa,Ekstraklasa,Poland,70,edward iordanescu,Waldstadion
+Godoy Cruz,Primera División,Argentina,70,walter dario ribonetto,El Libertador
+Derby County,EFL Championship,England,70,john eustace,Molton Road
+Defensa y Justicia,Primera División,Argentina,70,mariano soso,Arena del Centenario
+Millwall FC,EFL Championship,England,70,dean holden,Ivy Lane
+Eyüpspor,Turkish Süper Lig,Türkiye,70,selcuk sahin,Longville Stadium
+Lech Poznań,Ekstraklasa,Poland,70,niels frederiksen,Sanderson Park
+San Diego FC,Major League Soccer,United States,70,mikey varas,Estadio Nacional
+NEC Nijmegen,Eredivisie,Netherlands,70,dick schreuder,Molton Road
+Stade de Reims,Ligue 2 BKT,France,70,gregory poirier,Stade Municipal
+BSC Young Boys,Super League,Switzerland,70,giorgio contini,Stadion Wankdorf
+Colo-Colo,Primera División,Chile,70,fernando ortiz,Estadio Nacional
+LDU Quito,Serie A,Ecuador,70,tiago retzalff nunes,Estadio de las Artes
+Raków Częstochowa,Ekstraklasa,Poland,70,marek papszun,Longville Stadium
+FCSB,Liga I,Romania,70,ilias charalambous,Waldstadion
+Santa Clara,Primeira Liga,Portugal,70,vasco miguel lopes matos,Euro Park
+VfL Bochum 1848,2. Bundesliga,Germany,70,uwe rosler,Vonovia Ruhrstadion
+Libertad,División de Fútbol Profesional,Paraguay,70,pablo horacio guinazu,Arena del Centenario
+KAA Gent,Belgian Pro League,Belgium,70,ivan leko,Stadion Neder
+Hertha BSC,2. Bundesliga,Germany,70,stefan leitl,Olympiastadion
+SV Darmstadt 98,2. Bundesliga,Germany,70,florian kohfeldt,Merck-Stadion
+Universitario de Deportes,Liga I,Peru,70,edgardo alberto adinolfi duarte,El Monumento
+Kocaelispor,Turkish Süper Lig,Türkiye,70,selcuk inan,Sanderson Park
+Çaykur Rizespor,Turkish Süper Lig,Türkiye,70,ilhan palut,Stadion Neder
+Columbus Crew,Major League Soccer,United States,70,wilfried nancy,Stadion Neder
+New England Revolution,Major League Soccer,United States,70,caleb porter,Stadion Hanguk
+Universidad de Chile,Primera División,Chile,70,gustavo alvarez,El Monumento
+Gaziantep FK,Turkish Süper Lig,Türkiye,70,burak yilmaz,Stade Municipal
+LA Galaxy,Major League Soccer,United States,70,greg vanney,Dignity Health Sports Park
+FC Red Bull Salzburg,Bundesliga,Austria,70,thomas letsch,Red Bull Arena
+Real Sporting de Gijón,La Liga 2,Spain,70,asier garitano aguirrezabal,Stade Municipal
+Venezia,Serie B,Italy,70,giovanni stroppa,Town Park
+Charlotte FC,Major League Soccer,United States,70,dean smith,Stadio Classico
+NEOM SC,Saudi Pro League,Saudi Arabia,70,christophe galtier,Arena d'Oro
+Gimnasia y Esgrima La Plata,Primera División,Argentina,70,nicolas barrero,Arena del Centenario
+Club Nacional de Football,Primera División,Uruguay,70,martin ricardo liguera lopez,El Libertador
+Rio Ave FC,Primeira Liga,Portugal,70,sotiris silaidopoulos,Stadion 23. Maj
+RC Deportivo de La Coruña,La Liga 2,Spain,70,antonio hidalgo morilla,Waldstadion
+Real Zaragoza,La Liga 2,Spain,70,gabriel fernandez arenas,El Libertador
+Alanyaspor,Turkish Süper Lig,Türkiye,70,natanael joao pereira costa,Stadion Neder
+Oud-Heverlee Leuven,Belgian Pro League,Belgium,70,david hubert,Forest Park Stadium (Square Ground)
+Vancouver Whitecaps FC,Major League Soccer,United States,70,jesper sorensen,BC Place Stadium
+Angers SCO,Ligue 1 Uber Eats,France,70,alexandre dujeux,Forest Park Stadium (Square Ground)
+Blackburn Rovers,EFL Championship,England,69,valerien ismael,Ewood Park
+Philadelphia Union,Major League Soccer,United States,69,bradley carnell,Forest Park Stadium (Square Ground)
+Al Taawoun FC,Saudi Pro League,Saudi Arabia,69,pericles raimundo oliveira chamusca,Stade Kokoto
+Independiente del Valle,Serie A,Ecuador,69,javier rabanal hernandez,Stade Municipal
+Brøndby IF,Superliga,Denmark,69,steve cooper,Waldstadion
+Aarhus Gymnastikforening,Superliga,Denmark,69,jakob poulsen,Euro Arena
+Go Ahead Eagles,Eredivisie,Netherlands,69,melvin boel,Molton Road
+1. FC Kaiserslautern,2. Bundesliga,Germany,69,torsten lieberknecht,Stadion Europa
+Rosenborg BK,Eliteserien,Norway,69,alfred johansson,Forest Park Stadium (Square Ground)
+Fortuna Düsseldorf,2. Bundesliga,Germany,69,daniel thioune,Düsseldorf-Arena
+Platense,Primera División,Argentina,69,cristian alberto gonzalez peret,Crown Lane
+SSC Bari,Serie B,Italy,69,fabio caserta,Stadion Olympik
+San Jose Earthquakes,Major League Soccer,United States,69,bruce arena,Crown Lane
+Al Shabab,Saudi Pro League,Saudi Arabia,69,imanol alguacil barrenetxea,Stade Kokoto
+Albacete Balompié,La Liga 2,Spain,69,alberto gonzalez fernandez,Estadio Nacional
+Holstein Kiel,2. Bundesliga,Germany,69,marcel rapp,Holstein-Stadion
+Servette FC,Super League,Switzerland,69,jocelyn gourvennec,Stadion Neder
+CA Banfield,Primera División,Argentina,69,pedro antonio troglio,Estadio Nacional
+Montpellier HSC,Ligue 2 BKT,France,69,zoumana camara,Forest Park Stadium (Square Ground)
+Casa Pia,Primeira Liga,Portugal,69,joao jorge gandara mendes pereira,Euro Arena
+Hearts,Scottish Premiership,Scotland,69,derek mcinnes,Ivy Lane
+Al Ain,UAE Pro League,United Arab Emirates,69,vladimir ivic,Estadio de las Artes
+Atlético Tucumán,Primera División,Argentina,69,lucas pusineri,Estadio Nacional
+Burgos CF,La Liga 2,Spain,69,luis miguel ramis monfort,Court Lane
+Gil Vicente FC,Primeira Liga,Portugal,69,paulo cesar da silva peixoto,Court Lane
+Atlético Bucaramanga,Primera División,Colombia,69,leonel de jesus alvarez zuleta,Euro Arena
+Tigre,Primera División,Argentina,69,diego omar dabove,Crown Lane
+Club Atlético Unión,Primera División,Argentina,69,leonardo carol madelon,Estadio Nacional
+Instituto Atlético Central Córdoba,Primera División,Argentina,69,diego omar dabove,Estadio Nacional
+Moreirense FC,Primeira Liga,Portugal,69,vasco maria de albuquerque botelho da costa,Longville Stadium
+St. Louis CITY SC,Major League Soccer,United States,69,david critchley,Stadion Neder
+FC Arouca,Primeira Liga,Portugal,69,vasco cesar freire de seabra,Aloha Park
+Luton Town,EFL League One,England,69,matt bloomfield,Kenilworth Road
+Barcelona de Guayaquil,Serie A,Ecuador,69,ismael rescalvo sanchez,Stadion Hanguk
+Barracas Central,Primera División,Argentina,69,ruben dario insua,Longville Stadium
+Spezia,Serie B,Italy,69,luca dangelo,Stadion 23. Maj
+Jagiellonia Białystok,Ekstraklasa,Poland,69,adrian siemieniec,Waldstadion
+Kayserispor,Turkish Süper Lig,Türkiye,69,markus gisdol,Sanderson Park
+Oxford United,EFL Championship,England,69,gary rowett,Court Lane
+Molde FK,Eliteserien,Norway,69,magne hoseth,Stadion Neder
+Gençlerbirliği SK,Turkish Süper Lig,Türkiye,69,huseyin eroglu,Stade Municipal
+Sporting Cristal,Liga I,Peru,69,paulo autuori de mello,Arena del Centenario
+KVC Westerlo,Belgian Pro League,Belgium,69,issame charai,Molton Road
+Independiente Rivadavia,Primera División,Argentina,69,alfredo jesus berti,Aloha Park
+Cádiz CF,La Liga 2,Spain,69,gaizka garitano aguirre,Nuevo Mirandilla
+New York Red Bulls,Major League Soccer,United States,69,sandro schwarz,Red Bull Arena (New Jersey)
+Chicago Fire,Major League Soccer,United States,69,gregg berhalter,El Monumento
+Vitória,Serie A,Brazil,69,jair zaksauskas ribeiro ventura,Arena del Centenario
+Houston Dynamo,Major League Soccer,United States,69,ben olsen,Stadion Neder
+Ulsan HD FC,K League 1,Korea Republic,69,tae yong shin,Waldstadion
+Jeonbuk Hyundai Motors,K League 1,Korea Republic,69,gustavo augusto poyet dominguez,Ivy Lane
+BK Häcken,Allsvenskan,Sweden,69,jens gustafsson,Molton Road
+Racing Santander,La Liga 2,Spain,69,jose alberto lopez menendez,Stade Municipal
+Real Valladolid CF,La Liga 2,Spain,69,jorge guillermo almada alves,Estadio José Zorrilla
+Modena,Serie B,Italy,69,andrea sottil,Crown Lane
+SD Eibar,La Liga 2,Spain,69,benat san jose gil,Municipal de Ipurua
+Real Salt Lake,Major League Soccer,United States,69,pablo andres mastroeni,Crown Lane
+Orlando City SC,Major League Soccer,United States,69,oscar alexander pareja gomez,Ivy Lane
+CFR Cluj,Liga I,Romania,69,andrea mandorlini,Forest Park Stadium (Square Ground)
+Al Ettifaq,Saudi Pro League,Saudi Arabia,69,saad ali al shehri,Stade Kokoto
+Hannover 96,2. Bundesliga,Germany,69,christian titz,HDI-Arena
+Antalyaspor,Turkish Süper Lig,Türkiye,69,emre belozoglu,Stadion Olympik
+Royal Antwerp FC,Belgian Pro League,Belgium,69,stef wils,Forest Park Stadium (Square Ground)
+Standard de Liège,Belgian Pro League,Belgium,69,vincent euvrard,Waldstadion
+América de Cali,Primera División,Colombia,69,david gonzalez giraldo,O Dromo
+Austin FC,Major League Soccer,United States,69,nicolas estevez martinez,Molton Road
+Once Caldas,Primera División,Colombia,69,hernan dario herrera ramirez,O Dromo
+Nashville SC,Major League Soccer,United States,69,brian joseph callaghan ii,Stadio Classico
+Al Khaleej,Saudi Pro League,Saudi Arabia,69,giorgios donis,Stade Kokoto
+San Lorenzo de Almagro,Primera División,Argentina,69,damian ayude,El Libertador
+1. FC Magdeburg,2. Bundesliga,Germany,69,markus fiedler,Stadion Neder
+SK Rapid,Bundesliga,Austria,69,peter stoger,Stadion Europa
+Portsmouth,EFL Championship,England,69,john mousinho,Fratton Park
+FK Austria Wien,Bundesliga,Austria,68,stephan helm,Stade Municipal
+Fatih Karagümrük,Turkish Süper Lig,Türkiye,68,marcel liczka,O Dromo
+Sheffield Wednesday,EFL Championship,England,68,henrik pedersen,Ivy Lane
+SC Preußen Münster,2. Bundesliga,Germany,68,alexander ende,Stadion 23. Maj
+FC Schalke 04,2. Bundesliga,Germany,68,miron muslic,Veltins-Arena
+Sparta Rotterdam,Eredivisie,Netherlands,68,maurice steijn,Stadion Neder
+APOEL FC,Cypriot First Division,Cyprus,68,pablo gabriel garcia perez,Crown Lane
+Karlsruher SC,2. Bundesliga,Germany,68,christian eichner,Waldstadion
+Viking FK,Eliteserien,Norway,68,morten jensen,Molton Road
+Widzew Łódź,Ekstraklasa,Poland,68,patryk czubak,Stadion Neder
+Universitatea Craiova,Liga I,Romania,68,mirel matei radoi,Sanderson Park
+Catanzaro,Serie B,Italy,68,alberto aquilani,Stadion 23. Maj
+Málaga CF,La Liga 2,Spain,68,sergio pellicer garcia,El Libertador
+SV Elversberg,2. Bundesliga,Germany,68,vincent wagner,Court Lane
+Central Cordoba SdE,Primera División,Argentina,68,omar de felippe,Sanderson Park
+Club Atlético Sarmiento,Primera División,Argentina,68,facundo sava,Arena d'Oro
+Córdoba CF,La Liga 2,Spain,68,ivan ania cadavieco,Stade Municipal
+Aberdeen,Scottish Premiership,Scotland,68,jimmy thelin,Ivy Lane
+Hibernian,Scottish Premiership,Scotland,68,david gray,Ivy Lane
+Charlton Athletic,EFL Championship,England,68,nathan jones,Forest Park Stadium (Square Ground)
+CA Aldosivi,Primera División,Argentina,68,guillermo martin farre,Estadio Nacional
+Vitória SC,Primeira Liga,Portugal,68,luis miguel correia pinto,Stade Municipal
+CD Nacional,Primeira Liga,Portugal,68,tiago miguel carvalho margarido,Crown Lane
+Shanghai Shenhua,Super League,China PR,68,leonid slutskiy,Stadion Olympik
+Bolívar,División de Fútbol Profesional,Bolivia,68,flavio horacio robatto,Estadio Nacional
+Fortuna Sittard,Eredivisie,Netherlands,68,danny buijs,Molton Road
+Universidad Católica,Primera División,Chile,68,daniel oscar garnero,Arena del Centenario
+FC St.Gallen 1879,Super League,Switzerland,68,enrico maassen,Stadion Neder
+KV Mechelen,Belgian Pro League,Belgium,68,frederik vanderbiest,Stadion Europa
+CD Tondela,Primeira Liga,Portugal,68,ivo ricardo abreu vieira,Town Park
+AVS Futebol SAD,Primeira Liga,Portugal,68,jose albano ferreira da mota,Euro Park
+SK Brann,Eliteserien,Norway,68,freyr alexandersson,Molton Road
+Pogoń Szczecin,Ekstraklasa,Poland,68,thomas thomasberg,Stadion Neder
+Shanghai Port,Super League,China PR,68,kevin muscat,Stadion Olympik
+Royal Charleroi Sporting Club,Belgian Pro League,Belgium,68,rik demil,Court Lane
+Göztepe SK,Turkish Süper Lig,Türkiye,68,stanimir kolev stoilov,Forest Park Stadium (Square Ground)
+SpVgg Greuther Fürth,2. Bundesliga,Germany,68,thomas kleine,Sportpark Ronhof Thomas Sommer
+Cardiff City,EFL League One,England,68,brian barry murphy,Cardiff City Stadium
+Konyaspor,Turkish Süper Lig,Türkiye,68,recep ucar,Stadion Europa
+1. FC Nürnberg,2. Bundesliga,Germany,68,miroslav klose,Max-Morlock-Stadion
+Colorado Rapids,Major League Soccer,United States,68,chris armas,Euro Arena
+Sporting Kansas City,Major League Soccer,United States,68,kerry zavagnin,Stadion Neder
+New York City FC,Major League Soccer,United States,68,pascal jansen,Stadion Europa
+Pohang Steelers,K League 1,Korea Republic,68,tae ha park,Stadion Hanguk
+Hammarby Fotboll,Allsvenskan,Sweden,68,kim hellberg,Sanderson Park
+Djurgårdens IF,Allsvenskan,Sweden,68,jani honkavaara,Sanderson Park
+Alverca,Primeira Liga,Portugal,68,custodio miguel dias de castro,Arena d'Oro
+SK Sturm Graz,Bundesliga,Austria,68,jurgen saumel,Stadion Neder
+Empoli,Serie B,Italy,68,nazzareno tarantino,Euro Arena
+Daejeon Citizen,K League 1,Korea Republic,68,sun hong hwang,Waldstadion
+FC Seoul,K League 1,Korea Republic,68,gi dong kim,Sanderson Park
+Cercle Brugge KSV,Belgian Pro League,Belgium,68,onur cinel,Ivy Lane
+CD Palestino,Primera División,Chile,68,lucas alfredo bovaglio,El Monumento
+Qarabağ FK,Premyer Liqa,Azerbaijan,68,qurban qurbanov,Town Park
+FBC Melgar,Liga I,Peru,68,juan maximo reynoso guzman,El Monumento
+Kasımpaşa SK,Turkish Süper Lig,Türkiye,68,shota arveladze,Stadio Classico
+Granada CF,La Liga 2,Spain,68,juan jose rojo martin,Estadio Nuevo Los Cármenes
+SD Huesca,La Liga 2,Spain,68,sergi guillo barcelo,El Alcoraz
+Randers FC,Superliga,Denmark,68,rasmus bertelsen,Court Lane
+LASK Linz,Bundesliga,Austria,68,maximilian ritscher,Stadion Neder
+Toronto FC,Major League Soccer,United States,67,robin fraser,Crown Lane
+SC Paderborn 07,2. Bundesliga,Germany,67,ralf kettemann,Benteler-Arena
+Rapid Bucuresti,Liga I,Romania,67,constantin galca,Molton Road
+En Avant Guingamp,Ligue 2 BKT,France,67,sylvain ripoll,Court Lane
+Calcio Padova,Serie B,Italy,67,matteo andreoletti,Euro Arena
+Cesena FC,Serie B,Italy,67,michele mignani,Stade Municipal
+Mantova,Serie B,Italy,67,davide possanzini,Stadio Classico
+Carrarese,Serie B,Italy,67,antonio calabro,Euro Park
+Südtirol,Serie B,Italy,67,fabrizio castori,Longville Stadium
+NAC Breda,Eredivisie,Netherlands,67,carl hoefkens,Stadion Neder
+SC Heerenveen,Eredivisie,Netherlands,67,robin veldeman,Waldstadion
+PEC Zwolle,Eredivisie,Netherlands,67,henry van der vegt,Molton Road
+FC Groningen,Eredivisie,Netherlands,67,dick lukkien,Waldstadion
+FC Luzern,Super League,Switzerland,67,mario frick,Molton Road
+Deportivo Táchira,Primera División,Venezuela,67,fernando aristeguieta,El Libertador
+Huddersfield Town,EFL League One,England,67,grant lee,Kirklees Stadium
+Reggiana,Serie B,Italy,67,davide dionigi,Forest Park Stadium (Square Ground)
+Dinamo Bucureşti,Liga I,Romania,67,zeljko kopic,Euro Park
+Universidad Católica del Ecuador,Serie A,Ecuador,67,diego andres martinez carrera,El Monumento
+Beijing Guoan,Super League,China PR,67,enrique setien solar,Stadion Hanguk
+Cracovia,Ekstraklasa,Poland,67,luka elsner,Stade Municipal
+DSC Arminia Bielefeld,2. Bundesliga,Germany,67,michel kniat,SchücoArena
+Universitatea Cluj,Liga I,Romania,67,ioan ovidiu sabau,Stadion Hanguk
+Górnik Zabrze,Ekstraklasa,Poland,67,michal gasparik,Waldstadion
+Cultural Leonesa,La Liga 2,Spain,67,jose angel ziganda lacunza,Stadion Neder
+Eintracht Braunschweig,2. Bundesliga,Germany,67,heiner backhaus,Euro Arena
+Sint-Truidense VV,Belgian Pro League,Belgium,67,wouter vrancken,Court Lane
+DC United,Major League Soccer,United States,67,rene weiler,Crown Lane
+AIK,Allsvenskan,Sweden,67,mikkjal kjartansson thomassen,Waldstadion
+FC Dallas,Major League Soccer,United States,67,eric quill,Crown Lane
+IF Elfsborg,Allsvenskan,Sweden,67,oscar hiljemark,Stade Municipal
+Pescara,Serie B,Italy,67,vincenzo vivarini,Stadion 23. Maj
+Mjällby AIF,Allsvenskan,Sweden,67,christofer augustsson,Court Lane
+Estrela da Amadora,Primeira Liga,Portugal,67,jose augusto goncalves pinto de almeida faria,Town Park
+Wolfsberger AC,Bundesliga,Austria,67,dietmar didi kuhbauer,Euro Park
+CD Castellón,La Liga 2,Spain,67,pablo hernandez dominguez,Estadio Nacional
+CD Mirandés,La Liga 2,Spain,67,francisco rodriguez justo,Town Park
+Avellino,Serie B,Italy,67,raffaele biancolino,Stadio Classico
+Dynamo Dresden,2. Bundesliga,Germany,67,thomas stamm,Stadion Neder
+FC Nordsjælland,Superliga,Denmark,67,jens fonsskov olsen,Stadion Neder
+SS Juve Stabia,Serie B,Italy,67,ignazio abate,Arena del Centenario
+Bolton Wanderers,EFL League One,England,66,steven schumacher,Sanderson Park
+Al Fateh,Saudi Pro League,Saudi Arabia,66,jose manuel martins teixeira gomes,Stade Kokoto
+1. FC Saarbrücken,3. Liga,Germany,66,alois schwartz,Stadion Neder
+Grenoble Foot 38,Ligue 2 BKT,France,66,franck rizzetto,Stadion Neder
+Silkeborg IF,Superliga,Denmark,66,kent nielsen,Court Lane
+Odense Boldklub,Superliga,Denmark,66,alexander zorniger,Court Lane
+Stade Lavallois Mayenne FC,Ligue 2 BKT,France,66,olivier frapolli,Town Park
+FCV Dender EH,Belgian Pro League,Belgium,66,hayk milkon,Longville Stadium
+Heracles Almelo,Eredivisie,Netherlands,66,bas sibum,Stadion Neder
+FC Hansa Rostock,3. Liga,Germany,66,daniel brinkmann,Stadion Neder
+TSV 1860 München,3. Liga,Germany,66,alper kayabunar,Town Park
+ESTAC Troyes,Ligue 2 BKT,France,66,stephane dumont,Stadion Neder
+Frosinone,Serie B,Italy,66,massimiliano alvini,Stadion Neder
+Sporting Club Bastia,Ligue 2 BKT,France,66,benoit tavenot,Town Park
+IFK Göteborg,Allsvenskan,Sweden,66,stefan billborn,Stadion Neder
+FC Lausanne-Sport,Super League,Switzerland,66,peter zeidler,Stadion Neder
+Sarpsborg 08 FF,Eliteserien,Norway,66,christian michelsen,Court Lane
+Club Atlético San Martín,Primera División,Argentina,66,leandro atilio romagnoli,Arena del Centenario
+AD Ceuta FC,La Liga 2,Spain,66,jose juan romero gil,Town Park
+Shandong Taishan,Super League,China PR,66,kang hee choi,Stadion Hanguk
+FC Andorra,La Liga 2,Spain,66,ibai gomez perez,Town Park
+FC Zürich,Super League,Switzerland,66,mitchell van der gaag,Euro Arena
+GKS Katowice,Ekstraklasa,Poland,66,rafal gorak,Oktigann Park
+Blau-Weiß Linz,Bundesliga,Austria,66,mitja morec,Stadion Neder
+Unión Española,Primera División,Chile,66,miguel mauricio ramirez perez,Stadion Neder
+Blackpool FC,EFL League One,England,66,steve bruce,Molton Road
+RAAL La Louvière,Belgian Pro League,Belgium,66,frederic taquin,Stadion Neder
+Chengdu Rongcheng,Super League,China PR,66,jung won seo,Crown Lane
+Plymouth Argyle,EFL League One,England,66,tom cleverley,Molton Road
+Wycombe Wanderers,EFL League One,England,66,michael duff,Court Lane
+Carabobo FC,Primera División,Venezuela,66,cesar marcano,Aloha Park
+SV Zulte Waregem,Belgian Pro League,Belgium,66,sven vandenbroeck,Ivy Lane
+Al Fayha,Saudi Pro League,Saudi Arabia,66,pedro emanuel dos santos martins silva,Stade Kokoto
+Viborg FF,Superliga,Denmark,66,nickolai lund,Court Lane
+Cienciano,Liga I,Peru,66,carlos alberto desio,O Dromo
+Red Star FC,Ligue 2 BKT,France,66,gregory poirier,Stadion 23. Maj
+FC Anyang,K League 1,Korea Republic,66,yeon gun kim,Euro Park
+USL Dunkerque,Ligue 2 BKT,France,66,albert sanchez saura,Stadion 23. Maj
+FC Sion,Super League,Switzerland,66,didier tholot,Court Lane
+Excelsior,Eredivisie,Netherlands,66,ruben den uil,Court Lane
+Mushuc Runa,Serie A,Ecuador,66,angel paul velez ordonez,Stade Municipal
+Guaraní,División de Fútbol Profesional,Paraguay,66,victor bernay,Aloha Park
+Boston River,Primera División,Uruguay,66,jadson viera castro,Arena del Centenario
+Korona Kielce,Ekstraklasa,Poland,66,jacek zielinski,Stadion Neder
+Piast Gliwice,Ekstraklasa,Poland,66,max molder,Molton Road
+Radomiak Radom,Ekstraklasa,Poland,66,joao alexandre oliveira nunes henriques,Euro Park
+Lechia Gdańsk,Ekstraklasa,Poland,66,john carver,Sanderson Park
+Gangwon FC,K League 1,Korea Republic,66,kyung ho chung,Euro Arena
+Club Olimpia,División de Fútbol Profesional,Paraguay,66,ever hugo almeida,Arena d'Oro
+Motor Lublin,Ekstraklasa,Poland,66,mateusz stolarski,Stadion Neder
+Virtus Entella,Serie B,Italy,66,andrea chiappella,Town Park
+Reading FC,EFL League One,England,65,noel hunt,Molton Road
+Rotherham United,EFL League One,England,65,matthew hamshaw,Molton Road
+Milton Keynes Dons,EFL League Two,England,65,paul warne,Molton Road
+Gimcheon Sangmu FC,K League 1,Korea Republic,65,ro mon yoo,Estadio de las Artes
+Daegu FC,K League 1,Korea Republic,65,byung soo kim,Stadion Neder
+Rot-Weiss Essen,3. Liga,Germany,65,uwe koschinat,Stadion Neder
+Deportivo Riestra,Primera División,Argentina,65,gustavo oscar benitez,Aloha Park
+Clermont Foot 63,Ligue 2 BKT,France,65,sebastien mazeyrat,Euro Park
+Amiens SC,Ligue 2 BKT,France,65,omar daf,Stadion Neder
+Wisła Płock,Ekstraklasa,Poland,65,mariusz misiura,Stadion Neder
+CF Montréal,Major League Soccer,United States,65,marco donadel,Molton Road
+FC Annecy,Ligue 2 BKT,France,65,laurent guyot,Euro Park
+IK Sirius,Allsvenskan,Sweden,65,andreas engelmark,Town Park
+Vejle Boldklub,Superliga,Denmark,65,ivan prelec,Molton Road
+Motherwell FC,Scottish Premiership,Scotland,65,jens berthel askou,Ivy Lane
+SSV Ulm 1846,3. Liga,Germany,65,robert lechleiter,Stadion 23. Maj
+Wigan Athletic,EFL League One,England,65,ryan lowe,Ivy Lane
+FC Volendam,Eredivisie,Netherlands,65,rick kruijs,Court Lane
+Stockport County,EFL League One,England,65,dave challinor,Town Park
+Barnsley,EFL League One,England,65,conor hourihane,Forest Park Stadium (Square Ground)
+Caracas FC,Primera División,Venezuela,65,edgar fernando perez greco,Euro Arena
+Al Riyadh,Saudi Pro League,Saudi Arabia,65,javier calleja revilla,Stade Kokoto
+Deportes Iquique,Primera División,Chile,65,fernando maximiliano diaz seguel,Arena d'Oro
+Lincoln City,EFL League One,England,65,michael skubala,Crown Lane
+Vålerenga Fotball,Eliteserien,Norway,65,geir bakke,Ivy Lane
+Strømsgodset IF,Eliteserien,Norway,65,dag eilev akkerhaugen fagermo,Court Lane
+Auckland FC,A-League Men,Australia,65,,Euro Arena
+Zagłębie Lubin,Ekstraklasa,Poland,65,leszek ojrzynski,Molton Road
+UTA Arad,Liga I,Romania,65,adrian dumitru mihalcea,Stadion Neder
+Sportivo Luqueño,División de Fútbol Profesional,Paraguay,65,andres anca,El Libertador
+FC Botoşani,Liga I,Romania,65,leontin florian grozavu,Stadion 23. Maj
+SC Rheindorf Altach,Bundesliga,Austria,65,fabio ingolitsch,Molton Road
+FC Energie Cottbus,3. Liga,Germany,65,claus dieter wollitz,Court Lane
+Tromsø IL,Eliteserien,Norway,65,jorgen vik,Town Park
+Al Akhdoud Saudi Club,Saudi Pro League,Saudi Arabia,65,paulo sergio bento brito,Stade Kokoto
+Atlético Grau,Liga I,Peru,65,mateo daniel ahmed rogers,Estadio Nacional
+Suwon FC,K League 1,Korea Republic,65,eun jung kim,Stadion 23. Maj
+FC Winterthur,Super League,Switzerland,65,ulrich forte,Town Park
+FC Thun,Super League,Switzerland,65,mauro lustrinelli,Molton Road
+Academia Puerto Cabello,Primera División,Venezuela,65,eduardo sarago,Arena del Centenario
+Dundee United FC,Scottish Premiership,Scotland,65,jim goodwin,Court Lane
+IFK Norrköping,Allsvenskan,Sweden,65,martin falk,Molton Road
+Jeju United FC,K League 1,Korea Republic,65,hak bum kim,Estadio de las Artes
+TSV Hartberg,Bundesliga,Austria,65,manfred schmid,Euro Park
+FC Hermannstadt,Liga I,Romania,65,marius constantin maldarasanu,Stadion 23. Maj
+VfL Osnabrück,3. Liga,Germany,65,timo schultz,Court Lane
+Racing Club de Montevideo,Primera División,Uruguay,65,cristian rodolfo chambian aires,Arena del Centenario
+SV Wehen Wiesbaden,3. Liga,Germany,65,nils doring,Stadion Neder
+Oțelul Galați,Liga I,Romania,65,laszlo gyorgy balint,Stadion 23. Maj
+Fredrikstad FK,Eliteserien,Norway,65,andreas hagen,Stadion Neder
+Mohun Bagan Super Giant,Indian Super League,India,65,,O Dromo
+FCV Farul Constanța,Liga I,Romania,65,ilie poenaru,Oktigann Park
+Asociația Clubul Sportiv Petrolul 52,Liga I,Romania,65,eugen neagoe,Molton Road
+SV Ried,Bundesliga,Austria,64,maximilian senft,Stadion Neder
+Bradford City,EFL League One,England,64,graham alexander,Ivy Lane
+Nacional Potosí,División de Fútbol Profesional,Bolivia,64,leonardo eguez,Stadio Classico
+Telstar,Eredivisie,Netherlands,64,anthony correia,Longville Stadium
+SSV Jahn Regensburg,3. Liga,Germany,64,michael wimmer,Molton Road
+MSV Duisburg,3. Liga,Germany,64,dietmar hirsch,Waldstadion
+Alemannia Aachen,3. Liga,Germany,64,benedetto muzzicato,Stade Municipal
+Zhejiang FC,Super League,China PR,64,raul caneda perez,Stadion Olympik
+Melbourne Victory,A-League Men,Australia,64,,Stade Municipal
+Sydney FC,A-League Men,Australia,64,,Sanderson Park
+Rodez Aveyron Football,Ligue 2 BKT,France,64,didier santini,Molton Road
+Western Sydney Wanderers,A-League Men,Australia,64,,Waldstadion
+Damac FC,Saudi Pro League,Saudi Arabia,64,armando evangelista macedo freitas,Stade Kokoto
+Grasshopper Club Zürich,Super League,Switzerland,64,gerald scheiblehner,Euro Arena
+Al Hazem FC,Saudi Pro League,Saudi Arabia,64,jalal qaderi,Stade Kokoto
+Cerro Largo,Primera División,Uruguay,64,luis danielo nunez maciel,Arena del Centenario
+Kilmarnock,Scottish Premiership,Scotland,64,stuart kettlewell,Ivy Lane
+IF Brommapojkarna,Allsvenskan,Sweden,64,fredrik landen,Longville Stadium
+Melbourne City FC,A-League Men,Australia,64,,Stade Municipal
+Stevenage,EFL League One,England,64,alex revell,Town Park
+Livingston FC,Scottish Premiership,Scotland,64,david martindale,Molton Road
+Bruk-Bet Termalica Nieciecza,Ekstraklasa,Poland,64,marcin brosz,Town Park
+Gwangju FC,K League 1,Korea Republic,64,chul jun ma,Town Park
+FC Ingolstadt 04,3. Liga,Germany,64,sabrina wittmann,Stadion Neder
+Port Vale,EFL League One,England,64,darren moore,Court Lane
+Wuhan Three Towns,Super League,China PR,64,filipe goncalo pinto martins,Euro Arena
+Exeter City,EFL League One,England,64,gary caldwell,Town Park
+Peterborough United,EFL League One,England,64,darren ferguson,Court Lane
+Mansfield Town,EFL League One,England,64,nigel clough,Court Lane
+Al Kholood,Saudi Pro League,Saudi Arabia,64,des buckingham,Stade Kokoto
+KFUM-Kameratene Oslo,Eliteserien,Norway,64,johannes moesgaard,Town Park
+Leyton Orient,EFL League One,England,64,richard wellens,Court Lane
+Sønderjyske Fodbold,Superliga,Denmark,64,thomas norgaard,Town Park
+Al-Najma SC,Saudi Pro League,Saudi Arabia,64,mario fernando magalhaes da silva,Euro Park
+WSG Tirol,Bundesliga,Austria,64,philipp semlic,Longville Stadium
+SV Waldhof Mannheim,3. Liga,Germany,64,luc holtz,Stadion Neder
+Le Mans FC,Ligue 2 BKT,France,64,patrick videira,Molton Road
+San Antonio Bulo Bulo,División de Fútbol Profesional,Bolivia,64,pedro depablos,Arena d'Oro
+Hamarkameratene,Eliteserien,Norway,64,thomas myhre,Stadion Neder
+Sandefjord Fotball,Eliteserien,Norway,64,andreas tegstrom,Town Park
+Grazer AK 1902,Bundesliga,Austria,64,ferdinand feldhofer,Stadion Neder
+HJK Helsinki,Veikkausliiga,Finland,64,stevie grieve,Court Lane
+Arka Gdynia,Ekstraklasa,Poland,64,dawid szwarga,Stadion Neder
+GAIS,Allsvenskan,Sweden,64,fredrik holmberg,Stadion Neder
+Pau FC,Ligue 2 BKT,France,64,nicolas usai,Longville Stadium
+FC Erzgebirge Aue,3. Liga,Germany,64,jens hartel,Stadion Neder
+IFK Värnamo,Allsvenskan,Sweden,64,jonas magnus thern,Euro Park
+Salford City,EFL League Two,England,63,karl robinson,Town Park
+AS Nancy Lorraine,Ligue 2 BKT,France,63,laurent guyot,Stade Municipal
+Adelaide United,A-League Men,Australia,63,,Arena del Centenario
+Perth Glory,A-League Men,Australia,63,,Forest Park Stadium (Square Ground)
+Kristiansund BK,Eliteserien,Norway,63,amund robertsen skiri,Town Park
+Viktoria Köln,3. Liga,Germany,63,marian wilhelm,Town Park
+Halmstads BK,Allsvenskan,Sweden,63,magnus haglund,Town Park
+1. FC Schweinfurt 05,3. Liga,Germany,63,victor kleinhenz,Euro Park
+Östers IF,Allsvenskan,Sweden,63,robert bjorknesjo,Stadion Neder
+Real Sociedad de Fútbol B,La Liga 2,Spain,63,ion ansotegi,Reale Arena
+Unirea Slobozia,Liga I,Romania,63,adrian dumitru mihalcea,Oktigann Park
+AFC Wimbledon,EFL League One,England,63,johnnie jackson,Molton Road
+Chesterfield,EFL League Two,England,63,paul cook,Court Lane
+Northampton Town,EFL League One,England,63,kevin nolan,Court Lane
+Doncaster Rovers,EFL League One,England,63,grant mccann,Molton Road
+Notts County,EFL League Two,England,63,martin paterson,Ivy Lane
+FC Argeș,Liga I,Romania,63,bogdan ioan andone,Euro Park
+Cambridge United,EFL League Two,England,63,neil harris,Town Park
+Fredericia,Superliga,Denmark,63,michael hansen,Town Park
+Tianjin Jinmen Tiger,Super League,China PR,63,genwei yu,Stadion Olympik
+SC Verl,3. Liga,Germany,63,tobias strobl,Town Park
+Burton Albion,EFL League One,England,63,gary bowyer,Town Park
+Bristol Rovers,EFL League Two,England,63,darrell clarke,Court Lane
+Dundee FC,Scottish Premiership,Scotland,63,steven pressley,Court Lane
+FK Haugesund,Eliteserien,Norway,63,toni korkeakunnas,Town Park
+St. Mirren,Scottish Premiership,Scotland,63,stephen robinson,Town Park
+Yunnan Yukun,Super League,China PR,63,jorn andersen,Arena d'Oro
+Dalian Yingbo,Super League,China PR,63,yujian liu,Stadion Olympik
+Degerfors IF,Allsvenskan,Sweden,63,henok goitom,Town Park
+Bryne FK,Eliteserien,Norway,63,kevin knappen,Euro Park
+Gillingham,EFL League Two,England,62,gareth ainsworth,Court Lane
+Walsall,EFL League Two,England,62,matthew sadler,Court Lane
+US Boulogne Cote d'Opale,Ligue 2 BKT,France,62,fabien dagneaux,Crown Lane
+Gualberto Villarroel SJ,División de Fútbol Profesional,Bolivia,62,david osvaldo medina aguirre,Arena d'Oro
+Brisbane Roar,A-League Men,Australia,62,,Court Lane
+Newcastle Jets,A-League Men,Australia,62,,Forest Park Stadium (Square Ground)
+Crawley Town,EFL League Two,England,62,scott lindsey,Town Park
+Shamrock Rovers,Irish Premier Division,Republic of Ireland,62,stephen bradley,Town Park
+TSV Havelse,3. Liga,Germany,62,samir ferchichi,HDI-Arena
+Grimsby Town,EFL League Two,England,62,david artell,Town Park
+Qingdao Hainiu FC,Super League,China PR,62,xiaopeng li,Stadion Olympik
+Western United,A-League Men,Australia,62,,Stade Municipal
+Csíkszereda Miercurea Ciuc,Liga I,Romania,62,robert ilyes,Longville Stadium
+Barrow,EFL League Two,England,62,andrew whing,Longville Stadium
+Shrewsbury Town,EFL League Two,England,62,michael appleton,Court Lane
+Fleetwood Town,EFL League Two,England,62,peter wild,Town Park
+Barnet,EFL League Two,England,62,dean brennan,Town Park
+Swindon Town,EFL League Two,England,62,ian holloway,Court Lane
+Colchester United,EFL League Two,England,62,danny cowley,Court Lane
+Cheltenham Town,EFL League Two,England,62,steve cotterill,Court Lane
+FC Goa,Indian Super League,India,62,,O Dromo
+Shenzhen Peng City,Super League,China PR,62,,Ivy Lane
+Qingdao West Coast FC,Super League,China PR,62,jiayi shao,Stadio Classico
+Henan FC,Super League,China PR,62,daniel antonio lopes ramos,Stadion Olympik
+St Patrick's Athletic FC,Irish Premier Division,Republic of Ireland,62,sean oconnor,Town Park
+Macarthur FC,A-League Men,Australia,62,,Arena d'Oro
+Mohammedan SC,Indian Super League,India,61,,O Dromo
+Central Coast Mariners,A-League Men,Australia,61,,Crown Lane
+Shelbourne FC,Irish Premier Division,Republic of Ireland,61,joey obrien,Longville Stadium
+Falkirk,Scottish Premiership,Scotland,61,john mcglynn,Court Lane
+Harrogate Town,EFL League Two,England,61,simon weaver,Town Park
+VfB Stuttgart II,3. Liga,Germany,61,nico willig,Euro Park
+Metaloglobus București,Liga I,Romania,61,mihai teja,Longville Stadium
+Crewe Alexandra,EFL League Two,England,61,lee bell,Court Lane
+Bromley,EFL League Two,England,61,andy woodman,Town Park
+NorthEast United,Indian Super League,India,61,,Stade Kokoto
+Changchun Yatai,Super League,China PR,61,jose ricardo soares ribeiro,Euro Arena
+Meizhou Hakka,Super League,China PR,61,qu gang,Stadion Olympik
+Tranmere Rovers,EFL League Two,England,61,andy crosby,Ivy Lane
+Bohemian FC,Irish Premier Division,Republic of Ireland,60,stephen odonnell,Town Park
+TSG 1899 Hoffenheim II,3. Liga,Germany,60,stefan kleineheismann,Euro Park
+Newport County,EFL League Two,England,60,david robert hughes,Town Park
+Oldham Athletic,EFL League Two,England,60,micky mellon,Court Lane
+Wellington Phoenix,A-League Men,Australia,60,,O Dromo
+Derry City,Irish Premier Division,Republic of Ireland,60,tiernan lynch,Town Park
+East Bengal FC,Indian Super League,India,59,,O Dromo
+Drogheda United,Irish Premier Division,Republic of Ireland,59,kevin doherty,Longville Stadium
+Sligo Rovers,Irish Premier Division,Republic of Ireland,59,ryan casey,Town Park
+United Tigers SC,Indian Super League,India,59,,O Dromo
+Mumbai City FC,Indian Super League,India,59,,Court Lane
+Accrington Stanley,EFL League Two,England,59,john doolan,Town Park
+Galway United,Irish Premier Division,Republic of Ireland,58,john caulfield,Town Park
+Bengaluru FC,Indian Super League,India,58,,Arena d'Oro
+Waterford FC,Irish Premier Division,Republic of Ireland,58,john coleman,Euro Arena
+Jamshedpur FC,Indian Super League,India,58,,Arena d'Oro
+Cork City,Irish Premier Division,Republic of Ireland,57,gerard nash,Town Park
+Odisha FC,Indian Super League,India,56,,O Dromo
+Chennaiyin FC,Indian Super League,India,56,,O Dromo
+Kerala Blasters FC,Indian Super League,India,56,,O Dromo
+Hyderabad FC,Indian Super League,India,55,,Euro Arena
+Punjab FC,Indian Super League,India,52,,Stadion Olympik
