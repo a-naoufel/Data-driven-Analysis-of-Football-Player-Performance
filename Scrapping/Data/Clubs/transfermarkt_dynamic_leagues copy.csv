@@ -1,0 +1,685 @@
+league_name,club,average_market_value,total_market_value,average_market_value_eur,total_market_value_eur,source_url
+2. Bundesliga,Hertha BSC,€1.48m,€45.80m,1480000.0,45800000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,Holstein Kiel,€1.15m,€35.53m,1150000.0,35530000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,VfL Bochum,€1.15m,€35.50m,1150000.0,35500000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,1.FC Nuremberg,€1.01m,€34.45m,1010000.0,34450000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,Hannover 96,€1.15m,€33.25m,1150000.0,33250000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,Fortuna Düsseldorf,€1.18m,€33.08m,1180000.0,33080000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,SC Paderborn 07,€1.09m,€32.73m,1090000.0,32729999.999999996,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,FC Schalke 04,€930k,€29.75m,930000.0,29750000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,1.FC Magdeburg,€779k,€28.05m,779000.0,28050000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,1.FC Kaiserslautern,€962k,€26.93m,962000.0,26930000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,SV Darmstadt 98,€932k,€26.10m,932000.0,26100000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,Karlsruher SC,€910k,€25.48m,910000.0,25480000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,SV 07 Elversberg,€874k,€24.48m,874000.0,24480000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,SpVgg Greuther Fürth,€768k,€20.73m,768000.0,20730000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,Eintracht Braunschweig,€706k,€19.05m,706000.0,19050000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,Preußen Münster,€604k,€17.53m,604000.0,17530000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,Arminia Bielefeld,€537k,€15.58m,537000.0,15580000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+2. Bundesliga,SG Dynamo Dresden,€555k,€13.88m,555000.0,13880000.0,https://www.transfermarkt.com/2-bundesliga/startseite/wettbewerb/L2
+3. Liga,FC Hansa Rostock,€312k,€9.98m,312000.0,9980000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,VfB Stuttgart II,€329k,€9.88m,329000.0,9880000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,1.FC Saarbrücken,€322k,€9.35m,322000.0,9350000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,TSV 1860 Munich,€316k,€9.15m,316000.0,9150000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,SV Wehen Wiesbaden,€278k,€8.33m,278000.0,8330000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,SSV Jahn Regensburg,€313k,€8.15m,313000.0,8150000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,TSG 1899 Hoffenheim II,€255k,€7.90m,255000.0,7900000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,SSV Ulm 1846,€282k,€7.63m,282000.0,7630000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,FC Ingolstadt 04,€278k,€7.23m,278000.0,7230000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,Rot-Weiss Essen,€277k,€6.93m,277000.0,6930000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,FC Energie Cottbus,€224k,€6.73m,224000.0,6730000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,SV Waldhof Mannheim,€245k,€6.63m,245000.0,6630000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,VfL Osnabrück,€249k,€6.48m,249000.0,6480000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,MSV Duisburg,€229k,€6.40m,229000.0,6400000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,Alemannia Aachen,€224k,€6.28m,224000.0,6280000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,FC Erzgebirge Aue,€204k,€5.93m,204000.0,5930000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,FC Viktoria Köln,€211k,€5.48m,211000.0,5480000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,SC Verl,€211k,€5.48m,211000.0,5480000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,1.FC Schweinfurt 05,€133k,€3.98m,133000.0,3980000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+3. Liga,TSV Havelse,€101k,€3.04m,101000.0,3040000.0,https://www.transfermarkt.com/3-liga/startseite/wettbewerb/L3
+A-League Men,Sydney FC,€402k,€11.25m,402000.0,11250000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Auckland FC,€367k,€8.80m,367000.0,8800000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Perth Glory,€266k,€8.78m,266000.0,8780000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Melbourne Victory,€259k,€7.78m,259000.0,7780000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Western Sydney Wanderers,€296k,€7.70m,296000.0,7700000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Melbourne City FC,€217k,€7.18m,217000.0,7180000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Adelaide United,€220k,€7.05m,220000.0,7050000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Wellington Phoenix,€246k,€5.90m,246000.0,5900000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Macarthur FC,€217k,€5.85m,217000.0,5850000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Brisbane Roar,€190k,€5.70m,190000.0,5700000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Central Coast Mariners,€206k,€5.58m,206000.0,5580000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+A-League Men,Newcastle United Jets,€199k,€5.38m,199000.0,5380000.0,https://www.transfermarkt.com/a-league/startseite/wettbewerb/AUS1
+Allsvenskan,Malmö FF,€1.26m,€36.50m,1260000.0,36500000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,Hammarby IF,€1.04m,€25.93m,1040000.0,25930000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,Djurgårdens IF,€837k,€21.75m,837000.0,21750000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,AIK,€693k,€20.10m,693000.0,20100000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,BK Häcken,€608k,€19.45m,608000.0,19450000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,IF Elfsborg,€796k,€19.10m,796000.0,19100000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,IK Sirius,€673k,€17.50m,673000.0,17500000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,IFK Göteborg,€789k,€17.35m,789000.0,17350000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,Mjällby AIF,€648k,€16.85m,648000.0,16850000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,IF Brommapojkarna,€411k,€13.58m,411000.0,13580000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,GAIS,€395k,€10.28m,395000.0,10280000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,IFK Norrköping,€423k,€9.73m,423000.0,9730000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,IFK Värnamo,€334k,€8.03m,334000.0,8029999.999999999,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,Degerfors IF,€317k,€7.93m,317000.0,7930000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,Halmstads BK,€295k,€7.68m,295000.0,7680000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Allsvenskan,Östers IF,€297k,€7.43m,297000.0,7430000.0,https://www.transfermarkt.com/allsvenskan/startseite/wettbewerb/SE1
+Belgian Pro League,Club Brugge KV,€6.70m,€194.40m,6700000.0,194400000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,KRC Genk,€5.37m,€144.90m,5370000.0,144900000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,RSC Anderlecht,€2.95m,€97.40m,2950000.0,97400000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,Union Saint-Gilloise,€3.36m,€90.60m,3360000.0,90600000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,KAA Gent,€2.17m,€60.85m,2170000.0,60850000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,Royal Antwerp FC,€1.68m,€50.40m,1680000.0,50400000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,KVC Westerlo,€1.56m,€45.10m,1560000.0,45100000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,Standard Liège,€1.43m,€41.50m,1430000.0,41500000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,Cercle Brugge,€1.48m,€39.90m,1480000.0,39900000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,Royal Charleroi SC,€1.27m,€35.65m,1270000.0,35650000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,KV Mechelen,€1.27m,€35.55m,1270000.0,35550000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,Oud-Heverlee Leuven,€1.23m,€34.30m,1230000.0,34300000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,Sint-Truidense VV,€1.12m,€29.13m,1120000.0,29130000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,FCV Dender EH,€766k,€19.15m,766000.0,19150000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,Zulte Waregem,€564k,€16.35m,564000.0,16350000.000000002,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Belgian Pro League,RAAL La Louvière,€474k,€12.80m,474000.0,12800000.0,https://www.transfermarkt.com/jupiler-pro-league/startseite/wettbewerb/BE1
+Bundesliga,Bayern Munich,€38.07m,€951.65m,38070000.0,951650000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,Borussia Dortmund,€17.88m,€500.50m,17880000.0,500500000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,Bayer 04 Leverkusen,€16.41m,€426.75m,16410000.0,426750000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,Eintracht Frankfurt,€13.71m,€383.90m,13710000.0,383900000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,RB Leipzig,€12.63m,€366.25m,12630000.0,366250000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,VfB Stuttgart,€10.61m,€339.43m,10610000.0,339430000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,VfL Wolfsburg,€8.69m,€251.90m,8690000.0,251900000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,SV Werder Bremen,€5.74m,€177.80m,5740000.0,177800000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,TSG 1899 Hoffenheim,€5.23m,€172.55m,5230000.0,172550000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,SC Freiburg,€6.03m,€162.70m,6030000.0,162700000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,1.FSV Mainz 05,€5.43m,€157.58m,5430000.0,157580000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,Borussia Mönchengladbach,€5.14m,€154.18m,5140000.0,154180000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,FC Augsburg,€5.22m,€151.38m,5220000.0,151380000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,1.FC Union Berlin,€4.45m,€124.70m,4450000.0,124700000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,Hamburger SV,€3.55m,€106.45m,3550000.0,106450000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,1.FC Köln,€3.66m,€106.28m,3660000.0,106280000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,FC St. Pauli,€2.21m,€64.08m,2210000.0,64080000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Bundesliga,1.FC Heidenheim 1846,€2.10m,€56.80m,2100000.0,56800000.0,https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1
+Cypriot First Division,Pafos FC,€936k,€26.20m,936000.0,26200000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,Aris Limassol,€626k,€18.15m,626000.0,18150000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,Omonia Nicosia,€574k,€16.65m,574000.0,16649999.999999998,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,APOEL Nicosia,€477k,€15.25m,477000.0,15250000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,Apollon Limassol,€523k,€14.13m,523000.0,14130000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,AEK Larnaca,€351k,€11.95m,351000.0,11950000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,AEL Limassol,€280k,€8.68m,280000.0,8680000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,Anorthosis Famagusta,€227k,€7.50m,227000.0,7500000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,Ethnikos Achnas,€197k,€5.53m,197000.0,5530000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,Omonia Aradippou,€159k,€4.78m,159000.0,4780000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,Krasava ENY,€148k,€4.30m,148000.0,4300000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,Akritas Chlorakas,€133k,€3.85m,133000.0,3850000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,Enosis Neon Paralimniou,€117k,€3.85m,117000.0,3850000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Cypriot First Division,Olympiakos Nicosia,€112k,€3.48m,112000.0,3480000.0,https://www.transfermarkt.com/1-division/startseite/wettbewerb/ZYP1
+Czech First League,SK Slavia Prague,€3.55m,€106.58m,3550000.0,106580000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,AC Sparta Prague,€2.63m,€76.33m,2630000.0,76330000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,FC Viktoria Plzen,€2.01m,€52.23m,2009999.9999999998,52230000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,FC Banik Ostrava,€635k,€19.70m,635000.0,19700000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,SK Sigma Olomouc,€501k,€18.53m,501000.0,18530000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,FK Pardubice,€388k,€14.75m,388000.0,14750000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,FC Slovan Liberec,€483k,€13.53m,483000.0,13530000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,FC Hradec Kralove,€427k,€11.10m,427000.0,11100000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,FK Mlada Boleslav,€380k,€10.25m,380000.0,10250000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,FK Jablonec,€375k,€10.13m,375000.0,10130000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,MFK Karvina,€366k,€9.15m,366000.0,9150000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,FK Teplice,€276k,€8.83m,276000.0,8830000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,FK Dukla Prague,€258k,€7.75m,258000.0,7750000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,Bohemians Prague 1905,€266k,€7.18m,266000.0,7180000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,1.FC Slovacko,€246k,€6.16m,246000.0,6160000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+Czech First League,FC Zlin,€183k,€4.58m,183000.0,4580000.0,https://www.transfermarkt.com/1-fotbalova-liga/startseite/wettbewerb/TS1
+División de Fútbol Profesional,Bolívar La Paz,276 K €,"7,45 mio. €",276000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Club Always Ready,295 K €,"7,38 mio. €",295000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Blooming Santa Cruz,246 K €,"6,90 mio. €",246000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Club Deportivo Oriente Petrolero,182 K €,"6,73 mio. €",182000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,San Antonio Bulo Bulo,222 K €,"6,43 mio. €",222000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Gualberto Villarroel San José,171 K €,"5,99 mio. €",171000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,The Strongest La Paz,211 K €,"5,70 mio. €",211000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Real Oruro,138 K €,"5,25 mio. €",138000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Club Deportivo Guabirá,172 K €,"5,16 mio. €",172000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,CA Nacional Potosí,174 K €,"5,06 mio. €",174000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,CD Real Tomayapo,155 K €,"4,98 mio. €",155000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Universitario de Vinto,146 K €,"4,68 mio. €",146000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Club A.B.B.,107 K €,"4,06 mio. €",107000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Club Independiente Petrolero,105 K €,"3,45 mio. €",105000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Club Aurora,108 K €,"3,23 mio. €",108000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+División de Fútbol Profesional,Club Jorge Wilstermann,120 K €,"2,65 mio. €",120000.0,,https://www.transfermarkt.fr/division-profesional-apertura/startseite/wettbewerb/BO1A
+EFL Championship,Ipswich Town,€7.35m,€198.35m,7350000.0,198350000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Southampton FC,€6.98m,€188.50m,6980000.0,188500000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Leicester City,€6.25m,€168.75m,6250000.0,168750000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Sheffield United,€3.89m,€132.18m,3890000.0,132180000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Middlesbrough FC,€4.01m,€108.38m,4010000.0,108380000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Coventry City,€4.69m,€107.95m,4690000.0,107950000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Norwich City,€3.44m,€103.20m,3440000.0,103200000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Birmingham City,€3.93m,€102.15m,3930000.0,102150000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,West Bromwich Albion,€3.69m,€81.25m,3690000.0,81250000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Swansea City,€2.90m,€72.55m,2900000.0,72550000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Bristol City,€2.57m,€71.85m,2570000.0,71850000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Stoke City,€2.32m,€60.30m,2320000.0,60300000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Wrexham AFC,€1.78m,€58.73m,1780000.0,58730000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Watford FC,€2.07m,€57.85m,2069999.9999999998,57850000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Hull City,€2.02m,€56.58m,2020000.0,56580000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Millwall FC,€1.70m,€54.33m,1700000.0,54330000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Derby County,€1.92m,€51.93m,1920000.0,51930000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Queens Park Rangers,€1.65m,€47.95m,1650000.0,47950000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Preston North End,€1.53m,€42.85m,1530000.0,42850000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Portsmouth FC,€1.28m,€38.25m,1280000.0,38250000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Blackburn Rovers,€1.46m,€37.90m,1460000.0,37900000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Oxford United,€1.19m,€35.70m,1190000.0,35700000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Charlton Athletic,€1.02m,€25.50m,1020000.0,25500000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL Championship,Sheffield Wednesday,€749k,€20.23m,749000.0,20230000.0,https://www.transfermarkt.com/championship/startseite/wettbewerb/GB2
+EFL League One,Luton Town,€1.56m,€46.73m,1560000.0,46730000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Cardiff City,€1.27m,€31.78m,1270000.0,31780000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Huddersfield Town,€737k,€19.90m,737000.0,19900000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Bolton Wanderers,€628k,€18.23m,628000.0,18230000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Plymouth Argyle,€516k,€12.90m,516000.0,12900000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Blackpool FC,€536k,€11.80m,536000.0,11800000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Wigan Athletic,€378k,€11.73m,378000.0,11730000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Leyton Orient,€417k,€11.25m,417000.0,11250000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Wycombe Wanderers,€399k,€11.18m,399000.0,11180000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Reading FC,€358k,€10.73m,358000.0,10730000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Rotherham United,€359k,€10.40m,359000.0,10400000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Port Vale FC,€344k,€10.33m,344000.0,10330000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Stockport County,€361k,€9.75m,361000.0,9750000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Peterborough United,€317k,€9.50m,317000.0,9500000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Barnsley FC,€336k,€8.08m,336000.0,8080000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Stevenage FC,€294k,€7.95m,294000.0,7950000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Lincoln City,€268k,€7.50m,268000.0,7500000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Burton Albion,€245k,€6.85m,245000.0,6850000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Exeter City,€227k,€6.58m,227000.0,6580000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Doncaster Rovers,€238k,€6.18m,238000.0,6180000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Mansfield Town,€247k,€6.18m,247000.0,6180000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Bradford City,€227k,€6.13m,227000.0,6130000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,Northampton Town,€172k,€4.65m,172000.0,4650000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League One,AFC Wimbledon,€159k,€3.98m,159000.0,3980000.0,https://www.transfermarkt.com/league-one/startseite/wettbewerb/GB3
+EFL League Two,Milton Keynes Dons,€284k,€7.68m,284000.0,7680000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Bristol Rovers,€232k,€5.80m,232000.0,5800000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Salford City,€201k,€5.63m,201000.0,5630000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Notts County,€197k,€5.13m,197000.0,5130000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Cambridge United,€206k,€4.95m,206000.0,4950000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Chesterfield FC,€171k,€4.80m,171000.0,4800000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Crawley Town,€158k,€4.43m,158000.0,4430000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Crewe Alexandra,€150k,€4.35m,150000.0,4350000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Fleetwood Town,€176k,€4.05m,176000.0,4050000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Barrow AFC,€150k,€3.90m,150000.0,3900000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Colchester United,€150k,€3.75m,150000.0,3750000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Newport County,€134k,€3.75m,134000.0,3750000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Tranmere Rovers,€145k,€3.63m,145000.0,3630000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Grimsby Town,€138k,€3.58m,138000.0,3580000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Gillingham FC,€132k,€3.43m,132000.0,3430000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Cheltenham Town,€113k,€3.38m,113000.0,3380000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Walsall FC,€130k,€3.38m,130000.0,3380000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Swindon Town,€109k,€3.15m,109000.0,3150000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Harrogate Town,€101k,€2.63m,101000.0,2630000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Shrewsbury Town,€124k,€2.60m,124000.0,2600000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Bromley FC,€96k,€2.50m,96000.0,2500000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Barnet FC,€78k,€2.43m,78000.0,2430000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Accrington Stanley,€66k,€1.93m,66000.0,1930000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+EFL League Two,Oldham Athletic,€53k,€1.43m,53000.0,1430000.0,https://www.transfermarkt.com/league-two/startseite/wettbewerb/GB4
+Ekstraklasa,Lech Poznan,€1.42m,€42.65m,1420000.0,42650000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Legia Warszawa,€1.32m,€40.95m,1320000.0,40950000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Jagiellonia Bialystok,€1.25m,€37.40m,1250000.0,37400000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Raków Częstochowa,€1.43m,€37.05m,1430000.0,37050000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Widzew Lodz,€965k,€29.90m,965000.0,29900000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Cracovia,€829k,€24.88m,829000.0,24880000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Pogon Szczecin,€718k,€22.98m,718000.0,22980000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Lechia Gdansk,€602k,€17.45m,602000.0,17450000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Górnik Zabrze,€599k,€16.78m,599000.0,16780000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Radomiak Radom,€499k,€13.98m,499000.0,13980000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Zaglebie Lubin,€413k,€13.63m,413000.0,13630000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Motor Lublin,€478k,€12.90m,478000.0,12900000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Korona Kielce,€441k,€12.78m,441000.0,12780000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,GKS Katowice,€341k,€9.88m,341000.0,9880000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Wisla Plock,€311k,€9.03m,311000.0,9030000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Arka Gdynia,€317k,€8.55m,317000.0,8550000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Piast Gliwice,€304k,€8.53m,304000.0,8530000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Ekstraklasa,Bruk-Bet Termalica Nieciecza,€291k,€7.85m,291000.0,7850000.0,https://www.transfermarkt.com/ekstraklasa/startseite/wettbewerb/PL1
+Eliteserien,FK Bodø/Glimt,€2.17m,€60.73m,2170000.0,60730000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,SK Brann,€1.11m,€31.00m,1110000.0,31000000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Viking FK,€1.05m,€27.23m,1050000.0,27230000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Molde FK,€1.05m,€26.20m,1050000.0,26200000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Rosenborg BK,€1.10m,€25.25m,1100000.0,25250000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Tromsø IL,€982k,€21.60m,982000.0,21600000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Sarpsborg 08 FF,€609k,€17.65m,609000.0,17650000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Vålerenga Fotball Elite,€637k,€15.93m,637000.0,15930000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Fredrikstad FK,€538k,€15.08m,538000.0,15080000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Sandefjord Fotball,€517k,€12.93m,517000.0,12930000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Strømsgodset IF,€438k,€10.95m,438000.0,10950000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Kristiansund BK,€380k,€9.88m,380000.0,9880000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,FK Haugesund,€280k,€7.85m,280000.0,7850000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Bryne FK,€292k,€7.60m,292000.0,7600000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,KFUM-Kameratene Oslo,€309k,€7.43m,309000.0,7430000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eliteserien,Hamarkameratene,€248k,€7.20m,248000.0,7200000.0,https://www.transfermarkt.com/eliteserien/startseite/wettbewerb/NO1
+Eredivisie,PSV Eindhoven,€10.27m,€256.75m,10270000.0,256750000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,Feyenoord Rotterdam,€7.55m,€234.05m,7550000.0,234050000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,Ajax Amsterdam,€7.01m,€196.30m,7010000.0,196300000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,AZ Alkmaar,€4.78m,€124.33m,4780000.0,124330000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,FC Utrecht,€2.51m,€75.15m,2510000.0,75150000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,Twente Enschede FC,€2.07m,€58.05m,2069999.9999999998,58050000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,NEC Nijmegen,€1.31m,€37.95m,1310000.0,37950000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,SC Heerenveen,€1.66m,€36.45m,1660000.0,36450000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,Go Ahead Eagles,€1.04m,€31.10m,1040000.0,31100000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,FC Groningen,€1.01m,€27.30m,1010000.0,27300000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,PEC Zwolle,€918k,€24.78m,918000.0,24780000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,Sparta Rotterdam,€940k,€24.45m,940000.0,24450000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,Fortuna Sittard,€685k,€19.18m,685000.0,19180000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,Excelsior Rotterdam,€605k,€16.33m,605000.0,16329999.999999998,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,NAC Breda,€543k,€16.28m,543000.0,16280000.000000002,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,Heracles Almelo,€571k,€15.43m,571000.0,15430000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,FC Volendam,€334k,€9.68m,334000.0,9680000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Eredivisie,SC Telstar,€274k,€7.40m,274000.0,7400000.0,https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1
+Greek Super League,Olympiacos Piraeus,€4.00m,€119.95m,4000000.0,119950000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,PAOK Thessaloniki,€2.91m,€93.08m,2910000.0,93080000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,Panathinaikos FC,€2.79m,€92.10m,2790000.0,92100000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,AEK Athens,€2.19m,€69.98m,2190000.0,69980000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,Aris Thessaloniki,€1.27m,€39.40m,1270000.0,39400000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,OFI Crete FC,€414k,€14.50m,414000.0,14500000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,AE Kifisias,€409k,€13.90m,409000.0,13900000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,Panetolikos GFS,€434k,€13.45m,434000.0,13450000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,Panserraikos,€344k,€13.08m,344000.0,13080000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,APO Levadiakos,€377k,€12.05m,377000.0,12050000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,Asteras Aktor,€467k,€11.68m,467000.0,11680000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,Atromitos Athens,€429k,€11.15m,429000.0,11150000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,AE Larisa,€288k,€10.35m,288000.0,10350000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Greek Super League,Volos NPS,€297k,€9.20m,297000.0,9200000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/GR1
+Hrvatska nogometna liga,GNK Dinamo Zagreb,€1.98m,€67.25m,1980000.0,67250000.0,https://www.transfermarkt.com/1-hnl/startseite/wettbewerb/KR1
+Hrvatska nogometna liga,HNK Hajduk Split,€1.31m,€40.73m,1310000.0,40730000.0,https://www.transfermarkt.com/1-hnl/startseite/wettbewerb/KR1
+Hrvatska nogometna liga,HNK Rijeka,€997k,€36.88m,997000.0,36880000.0,https://www.transfermarkt.com/1-hnl/startseite/wettbewerb/KR1
+Hrvatska nogometna liga,NK Osijek,€693k,€19.40m,693000.0,19400000.0,https://www.transfermarkt.com/1-hnl/startseite/wettbewerb/KR1
+Hrvatska nogometna liga,NK Istra 1961,€450k,€12.60m,450000.0,12600000.0,https://www.transfermarkt.com/1-hnl/startseite/wettbewerb/KR1
+Hrvatska nogometna liga,NK Lokomotiva Zagreb,€282k,€10.73m,282000.0,10730000.0,https://www.transfermarkt.com/1-hnl/startseite/wettbewerb/KR1
+Hrvatska nogometna liga,NK Varazdin,€366k,€10.25m,366000.0,10250000.0,https://www.transfermarkt.com/1-hnl/startseite/wettbewerb/KR1
+Hrvatska nogometna liga,Slaven Belupo Koprivnica,€265k,€9.03m,265000.0,9030000.0,https://www.transfermarkt.com/1-hnl/startseite/wettbewerb/KR1
+Hrvatska nogometna liga,HNK Gorica,€341k,€7.85m,341000.0,7850000.0,https://www.transfermarkt.com/1-hnl/startseite/wettbewerb/KR1
+Hrvatska nogometna liga,HNK Vukovar 1991,€198k,€7.15m,198000.0,7150000.0,https://www.transfermarkt.com/1-hnl/startseite/wettbewerb/KR1
+Indian Super League,Mohun Bagan Super Giant,€212k,€7.43m,212000.0,7430000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,East Bengal FC,€174k,€5.23m,174000.0,5230000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,Kerala Blasters FC,€174k,€5.05m,174000.0,5050000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,FC Goa,€171k,€4.80m,171000.0,4800000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,Jamshedpur FC,€108k,€3.90m,108000.0,3900000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,Mumbai City FC,€140k,€3.50m,140000.0,3500000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,Bengaluru FC,€130k,€3.26m,130000.0,3260000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,NorthEast United FC,€124k,€3.23m,124000.0,3230000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,Odisha FC,€132k,€2.78m,132000.0,2780000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,Punjab FC,€80k,€2.24m,80000.0,2240000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,Chennaiyin FC,€98k,€2.05m,98000.0,2049999.9999999998,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,Sporting Club Delhi,€82k,€1.88m,82000.0,1880000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,Mohammedan SC (Kolkata),€45k,€1.68m,45000.0,1680000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Indian Super League,Inter Kashi FC,€54k,€915k,54000.0,915000.0,https://www.transfermarkt.com/indian-super-league/startseite/wettbewerb/IND1
+Irish Premier Division,Shamrock Rovers,€134k,€4.43m,134000.0,4430000.0,https://www.transfermarkt.com/league-of-ireland-premier-division/startseite/wettbewerb/IR1
+Irish Premier Division,St. Patrick's Athletic,€116k,€4.05m,116000.0,4050000.0,https://www.transfermarkt.com/league-of-ireland-premier-division/startseite/wettbewerb/IR1
+Irish Premier Division,Derry City,€142k,€3.55m,142000.0,3550000.0,https://www.transfermarkt.com/league-of-ireland-premier-division/startseite/wettbewerb/IR1
+Irish Premier Division,Shelbourne FC,€93k,€3.35m,93000.0,3350000.0,https://www.transfermarkt.com/league-of-ireland-premier-division/startseite/wettbewerb/IR1
+Irish Premier Division,Bohemian Football Club,€107k,€2.78m,107000.0,2780000.0,https://www.transfermarkt.com/league-of-ireland-premier-division/startseite/wettbewerb/IR1
+Irish Premier Division,Galway United FC,€73k,€2.20m,73000.0,2200000.0,https://www.transfermarkt.com/league-of-ireland-premier-division/startseite/wettbewerb/IR1
+Irish Premier Division,Drogheda United FC,€65k,€2.03m,65000.0,2029999.9999999998,https://www.transfermarkt.com/league-of-ireland-premier-division/startseite/wettbewerb/IR1
+Irish Premier Division,Waterford FC,€62k,€1.98m,62000.0,1980000.0,https://www.transfermarkt.com/league-of-ireland-premier-division/startseite/wettbewerb/IR1
+Irish Premier Division,Sligo Rovers,€66k,€1.78m,66000.0,1780000.0,https://www.transfermarkt.com/league-of-ireland-premier-division/startseite/wettbewerb/IR1
+Irish Premier Division,Cork City FC,€50k,€1.55m,50000.0,1550000.0,https://www.transfermarkt.com/league-of-ireland-premier-division/startseite/wettbewerb/IR1
+K League 1,Ulsan HD FC,€554k,€16.08m,554000.0,16079999.999999998,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,Jeonbuk Hyundai Motors,€344k,€15.83m,344000.0,15830000.0,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,FC Seoul,€394k,€14.18m,394000.0,14180000.0,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,Gimcheon Sangmu,€349k,€13.98m,349000.0,13980000.0,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,Daejeon Hana Citizen,€373k,€13.80m,373000.0,13800000.0,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,Gangwon FC,€252k,€11.08m,252000.0,11080000.0,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,Pohang Steelers,€271k,€10.30m,271000.0,10300000.0,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,Daegu FC,€197k,€9.48m,197000.0,9480000.0,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,Jeju SK,€240k,€8.18m,240000.0,8180000.0,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,Suwon FC,€166k,€8.13m,166000.0,8130000.000000001,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,FC Anyang,€232k,€7.65m,232000.0,7650000.0,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+K League 1,Gwangju FC,€220k,€7.03m,220000.0,7030000.0,https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/RSK1
+La Liga,Real Madrid,€56.04m,€1.40bn,56040000.0,1400000000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,FC Barcelona,€48.17m,€1.11bn,48170000.0,1110000000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Atlético de Madrid,€25.99m,€623.80m,25990000.0,623800000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Athletic Bilbao,€13.69m,€369.70m,13690000.0,369700000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Villarreal CF,€10.38m,€280.30m,10380000.0,280300000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Real Sociedad,€9.73m,€252.90m,9730000.0,252900000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Real Betis Balompié,€8.29m,€215.50m,8289999.999999999,215500000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Valencia CF,€7.24m,€166.60m,7240000.0,166600000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Girona FC,€6.21m,€155.20m,6210000.0,155200000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Celta de Vigo,€5.05m,€141.40m,5050000.0,141400000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Sevilla FC,€4.71m,€127.10m,4710000.0,127100000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,RCD Espanyol Barcelona,€4.13m,€99.00m,4130000.0,99000000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,CA Osasuna,€4.44m,€88.70m,4440000.0,88700000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Rayo Vallecano,€3.68m,€88.40m,3680000.0,88400000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Levante UD,€3.63m,€87.20m,3630000.0,87200000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,RCD Mallorca,€3.41m,€85.20m,3410000.0,85200000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Elche CF,€3.07m,€79.90m,3070000.0,79900000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Deportivo Alavés,€3.06m,€70.40m,3060000.0,70400000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Getafe CF,€3.08m,€67.80m,3080000.0,67800000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga,Real Oviedo,€2.34m,€60.80m,2340000.0,60800000.0,https://www.transfermarkt.com/primera-division/startseite/wettbewerb/ES1
+La Liga 2,UD Almería,€1.83m,€47.65m,1830000.0,47650000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Deportivo de La Coruña,€1.96m,€45.00m,1960000.0,45000000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,UD Las Palmas,€1.40m,€39.30m,1400000.0,39300000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Racing Santander,€1.55m,€37.30m,1550000.0,37300000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Real Valladolid CF,€1.03m,€26.90m,1030000.0,26900000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Sporting Gijón,€1.10m,€26.50m,1100000.0,26500000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,CD Leganés,€1.06m,€25.40m,1060000.0,25400000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Real Zaragoza,€977k,€25.40m,977000.0,25400000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Granada CF,€976k,€20.50m,976000.0,20500000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,CD Mirandés,€817k,€19.60m,817000.0,19600000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Cádiz CF,€808k,€19.40m,808000.0,19400000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Burgos CF,€813k,€18.70m,813000.0,18700000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,SD Eibar,€771k,€18.50m,771000.0,18500000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Málaga CF,€579k,€16.20m,579000.0,16200000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Cultural Leonesa,€570k,€15.95m,570000.0,15950000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,CD Castellón,€604k,€15.70m,604000.0,15700000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Córdoba CF,€558k,€14.50m,558000.0,14500000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Albacete Balompié,€641k,€14.10m,641000.0,14100000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,FC Andorra,€508k,€13.20m,508000.0,13200000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,SD Huesca,€434k,€12.15m,434000.0,12150000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,AD Ceuta FC,€417k,€10.85m,417000.0,10850000.0,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+La Liga 2,Real Sociedad B,€332k,€8.30m,332000.0,8300000.000000001,https://www.transfermarkt.com/laliga2/startseite/wettbewerb/ES2
+Liga I,FCSB,€1.67m,€48.43m,1670000.0,48430000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,CFR Cluj,€994k,€36.78m,994000.0,36780000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,FC Rapid 1923,€990k,€29.70m,990000.0,29700000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,CS Universitatea Craiova,€898k,€26.05m,898000.0,26050000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,FC Universitatea Cluj,€520k,€15.60m,520000.0,15600000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,FC Dinamo 1948,€518k,€15.55m,518000.0,15550000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,FCV Farul Constanta,€366k,€11.73m,366000.0,11730000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,FC Botosani,€279k,€10.60m,279000.0,10600000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,Petrolul Ploiesti,€270k,€10.53m,270000.0,10530000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,UTA Arad,€337k,€10.10m,337000.0,10100000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,FC Hermannstadt,€330k,€9.25m,330000.0,9250000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,ACSC FC Arges,€254k,€8.13m,254000.0,8130000.000000001,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,SC Otelul Galati,€279k,€7.83m,279000.0,7830000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,AFC Unirea 04 Slobozia,€258k,€7.75m,258000.0,7750000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,FK Csikszereda Miercurea Ciuc,€172k,€5.66m,172000.0,5660000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Liga I,FC Metaloglobus Bucharest,€108k,€3.45m,108000.0,3450000.0,https://www.transfermarkt.com/liga-1/startseite/wettbewerb/RO1
+Ligue 1 Uber Eats,Paris Saint-Germain,€47.81m,€1.15bn,47810000.0,1150000000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,Olympique Marseille,€13.72m,€397.85m,13720000.0,397850000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,AS Monaco,€12.44m,€348.30m,12440000.0,348300000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,RC Strasbourg Alsace,€9.94m,€278.30m,9940000.0,278300000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,LOSC Lille,€7.99m,€215.60m,7990000.0,215600000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,Olympique Lyon,€6.69m,€180.75m,6690000.0,180750000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,OGC Nice,€6.12m,€177.60m,6120000.0,177600000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,Stade Rennais FC,€7.83m,€172.30m,7830000.0,172300000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,Paris FC,€3.67m,€102.80m,3670000.0,102800000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,RC Lens,€3.26m,€91.35m,3260000.0,91350000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,FC Toulouse,€3.77m,€90.40m,3770000.0,90400000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,Stade Brestois 29,€3.55m,€88.70m,3550000.0,88700000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,FC Nantes,€3.22m,€83.60m,3220000.0,83600000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,AJ Auxerre,€2.66m,€71.85m,2660000.0,71850000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,FC Lorient,€2.54m,€65.95m,2540000.0,65950000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,FC Metz,€1.84m,€51.55m,1840000.0,51550000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,Le Havre AC,€1.78m,€46.25m,1780000.0,46250000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 1 Uber Eats,Angers SCO,€1.31m,€32.65m,1310000.0,32650000.0,https://www.transfermarkt.com/ligue-1/startseite/wettbewerb/FR1
+Ligue 2 BKT,AS Saint-Étienne,€2.62m,€68.00m,2620000.0,68000000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,Stade Reims,€2.05m,€57.33m,2049999.9999999998,57330000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,Montpellier HSC,€888k,€22.20m,888000.0,22200000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,ESTAC Troyes,€653k,€18.28m,653000.0,18280000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,EA Guingamp,€688k,€17.20m,688000.0,17200000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,USL Dunkerque,€666k,€16.65m,666000.0,16649999.999999998,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,Amiens SC,€596k,€14.90m,596000.0,14900000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,Red Star FC,€507k,€13.70m,507000.0,13700000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,SC Bastia,€514k,€12.85m,514000.0,12850000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,Grenoble Foot 38,€456k,€12.33m,456000.0,12330000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,Pau FC,€491k,€11.30m,491000.0,11300000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,Clermont Foot 63,€402k,€10.45m,402000.0,10450000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,Rodez AF,€357k,€10.35m,357000.0,10350000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,Stade Lavallois,€363k,€8.70m,363000.0,8700000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,AS Nancy-Lorraine,€376k,€8.65m,376000.0,8650000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,FC Annecy,€282k,€7.90m,282000.0,7900000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,Le Mans FC,€288k,€7.48m,288000.0,7480000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Ligue 2 BKT,US Boulogne,€183k,€5.13m,183000.0,5130000.0,https://www.transfermarkt.com/ligue-2/startseite/wettbewerb/FR2
+Major League Soccer,Inter Miami CF,€3.00m,€77.88m,3000000.0,77880000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Los Angeles FC,€2.14m,€66.48m,2140000.0,66480000.00000001,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,FC Cincinnati,€2.25m,€65.35m,2250000.0,65349999.99999999,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Atlanta United FC,€2.32m,€64.85m,2320000.0,64849999.99999999,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Los Angeles Galaxy,€2.10m,€58.68m,2100000.0,58680000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Portland Timbers,€2.19m,€56.85m,2190000.0,56850000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Seattle Sounders FC,€2.00m,€56.00m,2000000.0,56000000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Vancouver Whitecaps FC,€1.73m,€53.55m,1730000.0,53550000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Columbus Crew,€1.89m,€53.03m,1890000.0,53030000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,New York City FC,€1.60m,€47.98m,1600000.0,47980000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Charlotte FC,€1.52m,€46.98m,1520000.0,46980000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Chicago Fire FC,€1.51m,€46.70m,1510000.0,46700000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,San Diego FC,€1.56m,€46.65m,1560000.0,46650000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Austin FC,€1.80m,€45.05m,1800000.0,45050000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Minnesota United FC,€1.70m,€44.15m,1700000.0,44150000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Colorado Rapids,€1.60m,€43.13m,1600000.0,43130000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Orlando City SC,€1.48m,€42.98m,1480000.0,42980000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Nashville SC,€1.32m,€40.83m,1320000.0,40830000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Real Salt Lake City,€1.09m,€40.35m,1090000.0,40350000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Philadelphia Union,€1.31m,€39.28m,1310000.0,39280000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,New York Red Bulls,€1.07m,€38.55m,1070000.0,38550000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,St. Louis CITY SC,€1.17m,€37.36m,1170000.0,37360000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,New England Revolution,€1.38m,€37.18m,1380000.0,37180000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Houston Dynamo FC,€1.07m,€36.33m,1070000.0,36330000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,San Jose Earthquakes,€1.12m,€34.68m,1120000.0,34680000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Sporting Kansas City,€1.33m,€33.35m,1330000.0,33350000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,FC Dallas,€951k,€30.43m,951000.0,30430000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,CF Montréal,€1.09m,€27.30m,1090000.0,27300000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,Toronto FC,€1.05m,€26.30m,1050000.0,26300000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Major League Soccer,D.C. United,€992k,€25.80m,992000.0,25800000.0,https://www.transfermarkt.com/major-league-soccer/startseite/wettbewerb/MLS1
+Nemzeti Bajnokság I,Ferencvárosi TC,€1.49m,€46.15m,1490000.0,46150000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,Újpest FC,€608k,€16.43m,608000.0,16430000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,Puskás Akadémia FC,€513k,€14.35m,513000.0,14350000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,ETO FC,€389k,€10.90m,389000.0,10900000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,MTK Budapest,€342k,€8.90m,342000.0,8900000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,Debreceni VSC,€250k,€8.75m,250000.0,8750000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,Paksi FC,€334k,€8.35m,334000.0,8350000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,Nyíregyháza Spartacus,€281k,€8.15m,281000.0,8150000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,Diósgyőri VTK,€248k,€7.45m,248000.0,7450000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,Zalaegerszegi TE FC,€217k,€6.73m,217000.0,6730000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,Kisvárda FC,€229k,€6.43m,229000.0,6430000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Nemzeti Bajnokság I,Kazincbarcikai SC,€162k,€4.53m,162000.0,4530000.0,https://www.transfermarkt.com/nb-i/startseite/wettbewerb/UNG1
+Premier League,Arsenal FC,€52.56m,€1.31bn,52560000.0,1310000000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Manchester City,€46.64m,€1.21bn,46640000.0,1210000000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Liverpool FC,€44.39m,€1.15bn,44390000.0,1150000000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Chelsea FC,€36.66m,€1.14bn,36660000.0,1140000000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Tottenham Hotspur,€31.74m,€920.60m,31740000.0,920600000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Newcastle United,€25.93m,€751.83m,25930000.0,751830000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Manchester United,€28.08m,€730.20m,28080000.0,730200000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Nottingham Forest,€23.03m,€644.70m,23030000.0,644700000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Aston Villa,€23.74m,€546.00m,23740000.0,546000000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Brighton & Hove Albion,€20.02m,€520.60m,20020000.0,520600000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Crystal Palace,€16.15m,€484.53m,16149999.999999998,484530000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,AFC Bournemouth,€17.92m,€448.10m,17920000.0,448100000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Brentford FC,€14.40m,€431.90m,14400000.0,431900000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Everton FC,€17.28m,€414.60m,17280000.0,414600000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,West Ham United,€15.42m,€400.80m,15420000.0,400800000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Wolverhampton Wanderers,€14.48m,€376.60m,14480000.0,376600000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Fulham FC,€15.58m,€374.00m,15580000.0,374000000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Sunderland AFC,€9.44m,€340.00m,9440000.0,340000000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Leeds United,€12.17m,€316.30m,12170000.0,316300000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premier League,Burnley FC,€7.72m,€247.15m,7720000.0,247150000.0,https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1
+Premyer Liqa,Qarabağ FK,€993k,€24.83m,993000.0,24830000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,Sabah FK,€509k,€14.75m,509000.0,14750000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,Neftchi PFK,€538k,€14.00m,538000.0,14000000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,Zira FC,€476k,€12.85m,476000.0,12850000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,Turan-Tovuz IK,€405k,€10.13m,405000.0,10130000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,Araz-Nakhchivan,€377k,€9.05m,377000.0,9050000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,Sumgayit PFC,€277k,€6.93m,277000.0,6930000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,Kapaz PFK,€225k,€6.08m,225000.0,6080000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,FC Shamakhi,€183k,€4.58m,183000.0,4580000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,FC Imishli,€107k,€2.68m,107000.0,2680000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,FK Gabala,€87k,€2.35m,87000.0,2350000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Premyer Liqa,Karvan Yevlakh,€92k,€2.30m,92000.0,2300000.0,https://www.transfermarkt.com/premyer-liqasi/startseite/wettbewerb/AZ1
+Primeira Liga,Sporting CP,€18.26m,€456.50m,18260000.0,456500000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,FC Porto,€15.07m,€391.80m,15070000.0,391800000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,SL Benfica,€13.29m,€358.80m,13290000.0,358800000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,SC Braga,€5.00m,€135.00m,5000000.0,135000000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,FC Famalicão,€2.31m,€62.30m,2310000.0,62300000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,Rio Ave FC,€1.42m,€42.58m,1420000.0,42580000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,CD Santa Clara,€1.83m,€41.98m,1830000.0,41980000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,GD Estoril Praia,€1.55m,€40.25m,1550000.0,40250000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,FC Alverca,€956k,€29.63m,956000.0,29630000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,Gil Vicente FC,€1.15m,€28.70m,1150000.0,28700000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,Casa Pia AC,€902k,€27.95m,902000.0,27950000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,Moreirense FC,€1.05m,€27.20m,1050000.0,27200000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,Vitória Guimarães SC,€1.02m,€26.45m,1020000.0,26450000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,FC Arouca,€935k,€24.30m,935000.0,24300000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,CD Tondela,€809k,€22.65m,809000.0,22650000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,CD Nacional,€599k,€18.58m,599000.0,18580000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,Avs Futebol,€559k,€16.20m,559000.0,16200000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primeira Liga,CF Estrela Amadora,€480k,€13.45m,480000.0,13450000.0,https://www.transfermarkt.com/liga-portugal/startseite/wettbewerb/PO1
+Primera División,CA River Plate,€2.88m,€86.25m,2880000.0,86250000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Boca Juniors,€2.53m,€83.35m,2530000.0,83350000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,Racing Club,€2.34m,€77.23m,2340000.0,77230000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Independiente,€2.11m,€56.95m,2110000.0,56950000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Vélez Sarsfield,€1.72m,€55.03m,1720000.0,55030000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,Club Estudiantes de La Plata,€1.66m,€46.58m,1660000.0,46580000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Rosario Central,€1.46m,€39.40m,1460000.0,39400000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Talleres,€1.50m,€38.95m,1500000.0,38950000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,AA Argentinos Juniors,€1.17m,€37.58m,1170000.0,37580000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA San Lorenzo de Almagro,€1.25m,€35.08m,1250000.0,35080000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Lanús,€1.06m,€32.93m,1060000.0,32930000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,Club Atlético Belgrano,€1.01m,€31.45m,1010000.0,31450000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CD Godoy Cruz Antonio Tomba,€927k,€30.60m,927000.0,30600000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Huracán,€993k,€29.80m,993000.0,29800000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,Club Atlético Tigre,€880k,€28.15m,880000.0,28150000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,Defensa y Justicia,€877k,€28.08m,877000.0,28080000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,Club Atlético Platense,€946k,€27.43m,946000.0,27430000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,Instituto ACC,€910k,€26.40m,910000.0,26400000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Unión (Santa Fe),€823k,€25.50m,823000.0,25500000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CS Independiente Rivadavia,€726k,€23.95m,726000.0,23950000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Barracas Central,€710k,€21.30m,710000.0,21300000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Newell's Old Boys,€584k,€18.70m,584000.0,18700000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Central Córdoba (SdE),€530k,€17.48m,530000.0,17480000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Banfield,€524k,€17.30m,524000.0,17300000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,Club de Gimnasia y Esgrima La Plata,€511k,€16.88m,511000.0,16880000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,Club Atlético Tucumán,€571k,€15.98m,571000.0,15980000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Sarmiento (Junin),€395k,€12.63m,395000.0,12630000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA Aldosivi,€340k,€10.89m,340000.0,10890000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,CA San Martín (San Juan),€316k,€10.13m,316000.0,10130000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Primera División,Club Deportivo Riestra,€246k,€7.86m,246000.0,7860000.0,https://www.transfermarkt.com/torneo-apertura/startseite/wettbewerb/ARG1
+Saudi Pro League,Al-Hilal SFC,€7.98m,€215.45m,7980000.0,215450000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Ahli SFC,€6.20m,€173.50m,6200000.0,173500000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Ittihad Club,€4.88m,€146.28m,4880000.0,146280000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Nassr FC,€5.15m,€144.13m,5150000.0,144130000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Qadsiah FC,€4.97m,€129.23m,4970000.0,129229999.99999999,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,NEOM SC,€2.82m,€78.90m,2820000.0,78900000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Shabab FC,€1.92m,€49.88m,1920000.0,49880000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Taawoun FC,€1.32m,€35.58m,1320000.0,35580000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Ettifaq FC,€1.31m,€33.95m,1310000.0,33950000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Fateh SC,€721k,€20.20m,721000.0,20200000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Kholood Club,€745k,€17.88m,745000.0,17880000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Fayha FC,€606k,€16.96m,606000.0,16960000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Damac FC,€616k,€15.40m,616000.0,15400000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Khaleej FC,€558k,€13.95m,558000.0,13950000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Najma SC,€527k,€13.70m,527000.0,13700000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Riyadh SC,€453k,€13.13m,453000.0,13130000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Okhdood Club,€460k,€11.95m,460000.0,11950000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Saudi Pro League,Al-Hazem SC,€404k,€11.33m,404000.0,11330000.0,https://www.transfermarkt.com/saudi-professional-league/startseite/wettbewerb/SA1
+Scottish Premiership,Celtic FC,€4.42m,€132.65m,4420000.0,132650000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,Rangers FC,€3.60m,€104.45m,3600000.0,104450000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,Aberdeen FC,€822k,€22.20m,822000.0,22200000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,Hibernian FC,€788k,€20.50m,788000.0,20500000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,Heart of Midlothian FC,€624k,€18.72m,624000.0,18720000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,Dundee United FC,€476k,€10.48m,476000.0,10480000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,Motherwell FC,€311k,€9.03m,311000.0,9030000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,Kilmarnock FC,€357k,€8.93m,357000.0,8930000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,Livingston FC,€302k,€7.85m,302000.0,7850000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,Dundee FC,€285k,€7.13m,285000.0,7130000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,St. Mirren FC,€300k,€6.90m,300000.0,6900000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Scottish Premiership,Falkirk FC,€144k,€3.90m,144000.0,3900000.0,https://www.transfermarkt.com/scottish-premiership/startseite/wettbewerb/SC1
+Serie A,Inter Milan,€27.75m,€693.80m,27750000.0,693800000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Juventus FC,€23.18m,€602.70m,23180000.0,602700000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,SSC Napoli,€18.63m,€503.10m,18630000.0,503100000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,AC Milan,€21.43m,€471.50m,21430000.0,471500000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Atalanta BC,€17.66m,€459.10m,17660000.0,459100000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,AS Roma,€14.50m,€406.00m,14500000.0,406000000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,ACF Fiorentina,€9.51m,€285.35m,9510000.0,285350000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Como 1907,€9.50m,€285.10m,9500000.0,285100000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Bologna FC 1909,€9.74m,€272.80m,9740000.0,272800000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,SS Lazio,€9.51m,€266.35m,9510000.0,266350000.00000003,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Torino FC,€5.09m,€152.75m,5090000.0,152750000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Parma Calcio 1913,€5.09m,€152.68m,5090000.0,152680000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Udinese Calcio,€5.25m,€152.35m,5250000.0,152350000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,US Sassuolo,€4.95m,€148.60m,4950000.0,148600000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Genoa CFC,€4.89m,€141.95m,4890000.0,141950000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Cagliari Calcio,€3.64m,€102.05m,3640000.0,102050000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Pisa Sporting Club,€3.00m,€95.85m,3000000.0,95850000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,Hellas Verona,€3.04m,€91.20m,3040000.0,91200000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,US Cremonese,€2.57m,€77.15m,2570000.0,77150000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie A,US Lecce,€2.43m,€75.38m,2430000.0,75380000.0,https://www.transfermarkt.com/serie-a/startseite/wettbewerb/IT1
+Serie B,AC Monza,€1.75m,€52.58m,1750000.0,52580000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Venezia FC,€1.77m,€49.65m,1770000.0,49650000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Spezia Calcio,€1.41m,€40.85m,1410000.0,40850000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Palermo FC,€1.55m,€38.85m,1550000.0,38850000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,FC Empoli,€1.02m,€33.60m,1020000.0,33600000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,UC Sampdoria,€910k,€28.20m,910000.0,28200000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Cesena FC,€909k,€24.55m,909000.0,24550000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,US Catanzaro,€742k,€24.50m,742000.0,24500000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Modena FC,€905k,€24.43m,905000.0,24430000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,SS Juve Stabia,€802k,€22.45m,802000.0,22450000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,SSC Bari,€774k,€22.45m,774000.0,22450000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Frosinone Calcio,€640k,€21.75m,640000.0,21750000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Delfino Pescara 1936,€578k,€17.33m,578000.0,17330000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Mantova 1911,€639k,€17.25m,639000.0,17250000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Carrarese Calcio 1908,€569k,€17.08m,569000.0,17080000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,AC Reggiana 1919,€501k,€16.03m,501000.0,16030000.000000002,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,US Avellino 1912,€481k,€15.88m,481000.0,15880000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,FC Südtirol,€556k,€13.35m,556000.0,13350000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Calcio Padova,€437k,€13.10m,437000.0,13100000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Serie B,Virtus Entella,€359k,€10.05m,359000.0,10050000.0,https://www.transfermarkt.com/serie-b/startseite/wettbewerb/IT2
+Super League,FC Basel 1893,€2.41m,€79.50m,2410000.0,79500000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,BSC Young Boys,€2.79m,€72.60m,2790000.0,72600000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,FC Lugano,€1.73m,€51.98m,1730000.0,51980000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,FC St. Gallen 1879,€1.01m,€27.30m,1010000.0,27300000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,FC Zürich,€966k,€27.05m,966000.0,27050000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,FC Lausanne-Sport,€998k,€26.95m,998000.0,26950000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,FC Luzern,€837k,€25.95m,837000.0,25950000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,Servette FC,€872k,€23.55m,872000.0,23550000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,FC Sion,€694k,€18.75m,694000.0,18750000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,Grasshopper Club Zurich,€686k,€17.15m,686000.0,17150000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,FC Thun,€538k,€13.45m,538000.0,13450000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Super League,FC Winterthur,€332k,€9.95m,332000.0,9950000.0,https://www.transfermarkt.com/super-league/startseite/wettbewerb/C1
+Superliga,FC Midtjylland,€2.79m,€78.25m,2790000.0,78250000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,FC Copenhagen,€2.79m,€75.35m,2790000.0,75350000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,Bröndby IF,€1.78m,€42.70m,1780000.0,42700000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,Aarhus GF,€911k,€21.88m,911000.0,21880000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,FC Nordsjaelland,€799k,€20.78m,799000.0,20780000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,Viborg FF,€786k,€18.88m,786000.0,18880000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,Silkeborg IF,€641k,€17.95m,641000.0,17950000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,Vejle Boldklub,€488k,€15.60m,488000.0,15600000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,Randers FC,€588k,€14.70m,588000.0,14700000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,Sönderjyske Fodbold,€513k,€12.83m,513000.0,12830000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,Odense Boldklub,€469k,€12.20m,469000.0,12200000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Superliga,FC Fredericia,€320k,€8.65m,320000.0,8650000.0,https://www.transfermarkt.com/superligaen/startseite/wettbewerb/DK1
+Turkish Süper Lig,Galatasaray,€11.30m,€305.20m,11300000.0,305200000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Fenerbahce,€9.73m,€291.80m,9730000.0,291800000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Besiktas JK,€5.99m,€167.80m,5990000.0,167800000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Trabzonspor,€3.56m,€103.10m,3560000.0,103100000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Basaksehir FK,€2.58m,€74.70m,2580000.0,74700000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Samsunspor,€1.72m,€49.90m,1720000.0,49900000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Caykur Rizespor,€1.78m,€44.40m,1780000.0,44400000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Göztepe,€1.35m,€32.50m,1350000.0,32500000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Antalyaspor,€911k,€30.05m,911000.0,30050000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Gaziantep FK,€1.03m,€29.75m,1030000.0,29750000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Eyüpspor,€1.02m,€29.60m,1020000.0,29600000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Kocaelispor,€1.06m,€28.55m,1060000.0,28550000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Alanyaspor,€979k,€28.40m,979000.0,28400000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Konyaspor,€1.02m,€27.60m,1020000.0,27600000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Genclerbirligi Ankara,€762k,€25.90m,762000.0,25900000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Kayserispor,€768k,€23.05m,768000.0,23050000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Fatih Karagümrük,€703k,€20.40m,703000.0,20400000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+Turkish Süper Lig,Kasimpasa,€651k,€18.88m,651000.0,18880000.0,https://www.transfermarkt.com/super-lig/startseite/wettbewerb/TR1
+UAE Pro League,Al-Jazira Club,€1.72m,€49.79m,1720000.0,49790000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Shabab Al-Ahli Club,€1.36m,€47.75m,1360000.0,47750000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Al-Wasl FC,€1.67m,€46.83m,1670000.0,46830000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Sharjah FC,€1.19m,€42.98m,1190000.0,42980000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Al-Wahda FC,€1.17m,€35.18m,1170000.0,35180000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Al-Nasr SC (UAE),€1.11m,€34.43m,1110000.0,34430000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Al-Ain FC,€1.21m,€33.86m,1210000.0,33860000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Al-Bataeh CSC,€525k,€17.33m,525000.0,17330000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Khor Fakkan SSC,€471k,€16.50m,471000.0,16500000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,FC Baniyas,€451k,€16.24m,451000.0,16239999.999999998,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Kalba FC,€549k,€15.38m,549000.0,15380000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Ajman Club,€455k,€13.19m,455000.0,13190000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Dibba SCC,€178k,€8.17m,178000.0,8170000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+UAE Pro League,Al-Dhafra FC,€101k,€4.86m,101000.0,4860000.0,https://www.transfermarkt.com/uae-pro-league/startseite/wettbewerb/UAE1
+Veikkausliiga,HJK Helsinki,€285k,€7.70m,285000.0,7700000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,Kuopion Palloseura,€228k,€6.85m,228000.0,6850000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,Ilves Tampere,€211k,€5.48m,211000.0,5480000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,FC Inter Turku,€175k,€4.38m,175000.0,4380000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,SJK Seinäjoki,€167k,€4.35m,167000.0,4350000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,AC Oulu,€122k,€3.78m,122000.0,3780000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,Vaasan Palloseura,€117k,€3.40m,117000.0,3400000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,IF Gnistan,€110k,€2.85m,110000.0,2850000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,FC Haka,€109k,€2.63m,109000.0,2630000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,IFK Mariehamn,€102k,€2.55m,102000.0,2550000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,FF Jaro,€82k,€2.13m,82000.0,2130000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
+Veikkausliiga,FC KTP,€70k,€1.90m,70000.0,1900000.0,https://www.transfermarkt.com/veikkausliiga/startseite/wettbewerb/FI1
