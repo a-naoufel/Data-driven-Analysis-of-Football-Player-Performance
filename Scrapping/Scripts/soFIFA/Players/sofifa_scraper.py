@@ -11,18 +11,19 @@ from player_scraper import PlayerScraper
 
 
 class SoFIFAScraper:
-    def __init__(self, player_urls_file="player_urls.csv", output_file="player_stats.csv"):
-        # Get current script's directory (e.g., Scrapping/Scripts/)
+    def __init__(self, player_urls_file="player_urls.csv", output_file="player_stats_raw.csv", fresh_stats: bool = False):
+        # Get current script's directory (e.g., Scrapping/Scripts/soFIFA/Players/)
         current_dir = os.path.dirname(os.path.abspath(__file__))
 
-        # Go two levels up to project root
-        project_root = os.path.abspath(os.path.join(current_dir, "..", ".."))
+        # Go three levels up to reach the Scrapping folder (Players -> soFIFA -> Scripts -> Scrapping)
+        scrapping_root = os.path.abspath(os.path.join(current_dir, "..", "..", ".."))
 
-        # Build path to the target data directory
+        # Build path to the target data directory (Scrapping/Data/soFIFA/Players)
         data_dir = os.path.join(
-            project_root,
-            "Scrapping",
-            "data"
+            scrapping_root,
+            "Data",
+            "soFIFA",
+            "Players",
         )
 
         # Ensure directory exists
@@ -35,6 +36,37 @@ class SoFIFAScraper:
         self.player_stats = []
         self.columns = None
         self.csv_initialized = False
+        self.existing_urls = set()
+        self.existing_ids = set()
+        # Fresh mode: remove any existing output file and reset state
+        if fresh_stats and os.path.exists(self.output_file):
+            try:
+                os.remove(self.output_file)
+                print(f"[fresh] Removed existing output file: {self.output_file}")
+            except Exception as e:
+                print(f"[fresh] Warning: could not remove existing file: {e}")
+        # Load existing progress if any (resume mode)
+        if not fresh_stats and os.path.exists(self.output_file):
+            self._load_existing_progress()
+
+    def _load_existing_progress(self):
+        """Load existing output to support resume: header, urls, and player_ids."""
+        try:
+            with open(self.output_file, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                self.columns = reader.fieldnames or self.columns
+                for row in reader:
+                    url = row.get('url')
+                    pid = row.get('player_id')
+                    if url:
+                        self.existing_urls.add(url)
+                    if pid:
+                        self.existing_ids.add(pid)
+            # Ensure subsequent writes append without rewriting header
+            self.csv_initialized = True
+            print(f"[resume] Loaded existing rows: {len(self.existing_urls)} from {os.path.basename(self.output_file)}")
+        except Exception as e:
+            print(f"[resume] Warning: could not load existing progress ({e}); starting fresh appends")
 
     def load_player_urls(self):
         """Load player URLs from CSV file"""
@@ -79,7 +111,22 @@ class SoFIFAScraper:
             # Block images, stylesheets, fonts to optimize loading
             await page.route("**/*", lambda route: route.abort() if route.request.resource_type in ["image", "stylesheet", "font", "media"] else route.continue_())
             
-            urls_to_scrape = self.player_urls[:max_players] if max_players else self.player_urls
+            # Filter out already-scraped players by URL or player_id
+            filtered_urls = []
+            skipped = 0
+            for u in self.player_urls:
+                pid = PlayerScraper.extract_player_id(u)
+                if (u in self.existing_urls) or (pid and pid in self.existing_ids):
+                    skipped += 1
+                    continue
+                filtered_urls.append(u)
+
+            if max_players:
+                urls_to_scrape = filtered_urls[:max_players]
+            else:
+                urls_to_scrape = filtered_urls
+            if skipped:
+                print(f"[resume] Skipping {skipped} already-scraped players; remaining {len(urls_to_scrape)}")
             total = len(urls_to_scrape)
             
             for idx, url in enumerate(urls_to_scrape, 1):
@@ -179,7 +226,7 @@ class SoFIFAScraper:
             self.csv_initialized = True
 
         with open(self.output_file, mode, newline='', encoding='utf-8') as f:
-            writer = csv.DictWriter(f, fieldnames=self.columns)
+            writer = csv.DictWriter(f, fieldnames=self.columns, extrasaction='ignore')
             
             # Write header only if file doesn't exist
             if not file_exists:
@@ -204,8 +251,13 @@ def parse_args():
     )
     parser.add_argument(
         "--output-file",
-        default="player_stats.csv",
+        default="player_stats_raw.csv",
         help="Path to the CSV file for saving player stats"
+    )
+    parser.add_argument(
+        "--fresh-stats",
+        action="store_true",
+        help="Delete existing output stats file before scraping"
     )
     return parser.parse_args()
 
@@ -215,7 +267,8 @@ async def main():
     args = parse_args()
     scraper = SoFIFAScraper(
         player_urls_file=args.player_urls_file,
-        output_file=args.output_file
+        output_file=args.output_file,
+        fresh_stats=args.fresh_stats,
     )
     
     # Load player URLs from CSV file
@@ -245,7 +298,7 @@ async def main():
     print(f"Total player URLs loaded: {len(scraper.player_urls)}")
     print(f"Total player stats scraped: {len(scraper.player_stats)}")
     print("\nFile created:")
-    print("  - player_stats.csv (detailed stats for all players)")
+    print("  - player_stats_raw.csv (detailed stats for all players)")
     
     # Show sample of stats columns
     if scraper.player_stats:

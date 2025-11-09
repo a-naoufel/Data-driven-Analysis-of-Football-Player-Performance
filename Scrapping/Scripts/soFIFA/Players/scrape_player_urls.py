@@ -6,14 +6,18 @@ import csv
 import asyncio
 from playwright.async_api import async_playwright
 import os
+import argparse
 
 
 class PlayerURLScraper:
-    def __init__(self, base_url="https://sofifa.com/players?col=oa&sort=desc"):
+    def __init__(self, base_url="https://sofifa.com/players?col=oa&sort=desc", limit: int | None = None, output_filename: str = "player_urls.csv"):
         self.base_url = base_url
         self.all_player_urls = []
         self.offset = 0
         self.page_size = 60
+        self.limit = limit
+        # Precompute output directory for consistency
+        self.output_filename = output_filename
 
     async def scrape_all_player_urls(self):
         """Scrape all player URLs from paginated list"""
@@ -103,9 +107,20 @@ class PlayerURLScraper:
                         print(f"  ✓ Extracted {len(player_urls)} player URLs")
                         print(f"  Next button exists: {has_next}")
                         
-                        # Add to collection
-                        self.all_player_urls.extend(player_urls)
-                        
+                        # Add to collection (dedupe while preserving order)
+                        for u in player_urls:
+                            if u not in self.all_player_urls:
+                                self.all_player_urls.append(u)
+
+                        # Enforce exact limit mid-pagination if requested
+                        if self.limit is not None and len(self.all_player_urls) >= self.limit:
+                            self.all_player_urls = self.all_player_urls[: self.limit]
+                            # Save and stop
+                            self.save_urls_to_csv()
+                            success = True
+                            has_next = False
+                            break
+
                         # Save after each page
                         self.save_urls_to_csv()
                         
@@ -127,27 +142,29 @@ class PlayerURLScraper:
             
         return self.all_player_urls
 
-    def save_urls_to_csv(self, filename="player_urls.csv"):
-        """Save all player URLs to CSV file in the 'Data-driven-Analysis-of-Football-Player-Performance/Scrapping/data' directory"""
-    
-        # Get the absolute path of the current script (e.g. Scrapping/Scripts/)
+    def save_urls_to_csv(self, filename: str | None = None):
+        """Save all player URLs to CSV file in Scrapping/Data/soFIFA/Players/player_urls.csv"""
+
+        # Get the absolute path of the current script (e.g. Scrapping/Scripts/soFIFA/Players/)
         current_dir = os.path.dirname(os.path.abspath(__file__))
 
-        # Go two levels up to reach the project root
-        project_root = os.path.abspath(os.path.join(current_dir, "..", ".."))
+        # Go three levels up to reach the Scrapping folder (Players -> soFIFA -> Scripts -> Scrapping)
+        scrapping_root = os.path.abspath(os.path.join(current_dir, "..", "..", ".."))
 
-        # Build the target data directory path
+        # Build the target data directory path (Scrapping/Data/soFIFA/Players)
         data_dir = os.path.join(
-            project_root,
-            "Scrapping",
-            "data"
+            scrapping_root,
+            "Data",
+            "soFIFA",
+            "Players",
         )
 
         # Ensure the directory exists
         os.makedirs(data_dir, exist_ok=True)
 
-        # Full file path
-        filepath = os.path.join(data_dir, filename)
+        out_name = filename or self.output_filename
+        filepath = os.path.join(data_dir, out_name)
+
         # Remove duplicates while preserving order
         unique_urls = []
         seen = set()
@@ -155,30 +172,40 @@ class PlayerURLScraper:
             if url not in seen:
                 seen.add(url)
                 unique_urls.append(url)
-        
+
         with open(filepath, 'w', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
             writer.writerow(['player_url'])
             for url in unique_urls:
                 writer.writerow([url])
-        
-        print(f"  💾 Saved {len(unique_urls)} unique URLs to {filename}")
+
+        print(f"  💾 Saved {len(unique_urls)} unique URLs to {out_name}")
+
+
+def parse_args():
+    ap = argparse.ArgumentParser(description="Scrape SoFIFA player profile URLs")
+    ap.add_argument("--limit", type=int, default=None, help="Stop after collecting exactly this many URLs")
+    ap.add_argument("--output-file", default="player_urls.csv", help="Output CSV filename (saved under Scrapping/Data/soFIFA/Players)")
+    return ap.parse_args()
 
 
 async def main():
     """Main function to run the URL scraper"""
-    scraper = PlayerURLScraper()
+    args = parse_args()
+    scraper = PlayerURLScraper(limit=args.limit, output_filename=args.output_file)
     
     print("="*60)
     print("SoFIFA Player URL Scraper")
     print("="*60)
-    print("\nThis will scrape ALL player URLs from sofifa.com")
+    print("\nThis will scrape player URLs from sofifa.com")
     print("The process may take several minutes...")
     print("\nFeatures:")
     print("  - Headless mode (no browser window)")
     print("  - Resource blocking for faster loading")
     print("  - Cloudflare retry with 10s backoff (3 retries)")
     print("  - Saves after each page")
+    if args.limit is not None:
+        print(f"  - Exact limit enforced: {args.limit} URLs")
     print("="*60)
     
     await scraper.scrape_all_player_urls()
@@ -193,7 +220,7 @@ async def main():
     print(f"Total unique player URLs: {len(set(scraper.all_player_urls))}")
     print(f"Total pages scraped: {(scraper.offset // scraper.page_size) + 1}")
     print("\nFile created:")
-    print("  - player_urls.csv")
+    print("  -", args.output_file)
     print("\nYou can now run sofifa_scraper.py to scrape player stats!")
 
 
