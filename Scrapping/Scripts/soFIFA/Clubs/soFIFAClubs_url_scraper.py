@@ -13,9 +13,17 @@ class ClubURLScraper:
         self.max_offset = 660  # Last valid page (11 * 60)
         self.limit = limit  # optional max number of clubs to collect
 
-        # Prepare output path (incremental writes)
-        root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        data_dir = os.path.join(root_dir, "Data", "soFIFA", "Clubs")
+        # Prepare output path (incremental writes) under Scrapping/Data/soFIFA/Clubs
+        # __file__ = Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs_url_scraper.py
+        # parents: Clubs -> soFIFA -> Scripts -> Scrapping (4 levels up)
+        scrapping_root = os.path.dirname(
+            os.path.dirname(
+                os.path.dirname(
+                    os.path.dirname(os.path.abspath(__file__))
+                )
+            )
+        )
+        data_dir = os.path.join(scrapping_root, "Data", "soFIFA", "Clubs")
         os.makedirs(data_dir, exist_ok=True)
         self.output_file = os.path.join(data_dir, "club_urls.csv")
 
@@ -119,15 +127,24 @@ class ClubURLScraper:
                 )
 
                 print(f"  ✓ Extracted {len(club_urls)} clubs")
-                # Append new unique URLs incrementally
+                # Append new unique URLs incrementally, honoring exact --limit
                 new_urls = []
                 seen = set(self.all_club_urls)
+                remaining = None
+                if self.limit:
+                    remaining = max(0, self.limit - len(self.all_club_urls))
+                    if remaining == 0:
+                        print(f"🔚 Reached limit {self.limit}; stopping early before append.")
+                        break
                 for cu in club_urls:
-                    if cu not in seen:
-                        new_urls.append(cu)
-                        seen.add(cu)
-                self.all_club_urls.extend(new_urls)
+                    if cu in seen:
+                        continue
+                    new_urls.append(cu)
+                    seen.add(cu)
+                    if remaining is not None and len(new_urls) >= remaining:
+                        break
                 if new_urls:
+                    self.all_club_urls.extend(new_urls)
                     self.append_urls_to_csv(new_urls)
                     print(f"  💾 Appended {len(new_urls)} new URLs (total: {len(self.all_club_urls)})")
                 else:
@@ -165,12 +182,19 @@ def parse_args():
     ap = argparse.ArgumentParser(description="Incremental SoFIFA club URL scraper")
     ap.add_argument("--limit", type=int, default=None, help="Optional number of club URLs to collect")
     ap.add_argument("--base-url", default="https://sofifa.com/teams?type=club&col=rating&sort=desc", help="Base listing URL")
+    ap.add_argument("--fresh", action="store_true", help="Start with a fresh club_urls.csv (overwrite existing)")
     return ap.parse_args()
 
 
 async def main():
     args = parse_args()
     scraper = ClubURLScraper(base_url=args.base_url, limit=args.limit)
+    if args.fresh:
+        # Overwrite existing file with header and clear in-memory list
+        with open(scraper.output_file, "w", newline="", encoding="utf-8") as f:
+            csv.writer(f).writerow(["club_url"])
+        scraper.all_club_urls = []
+        print("🧼 Fresh mode: existing club_urls.csv reset.")
     print("=" * 60)
     print("SoFIFA Club URL Scraper (Incremental)")
     print("=" * 60)

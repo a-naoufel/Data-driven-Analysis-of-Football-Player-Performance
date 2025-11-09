@@ -34,25 +34,34 @@ python -m playwright install
 Run both stages via the orchestrator:
 
 ```pwsh
-# Limit URL collection to 120, and club stats to 20
+# Fresh full scrape with limits
+python Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs.py --fresh-urls --fresh-stats --url-limit 120 --club-limit 20
+
+# Incremental (continues existing files)
 python Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs.py --url-limit 120 --club-limit 20
 
-# Full run (no limits)
+# Full run (no limits, incremental)
 python Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs.py
 ```
 
 Run URL scraper alone:
 
 ```pwsh
-# Collect up to 180 URLs (increments into club_urls.csv)
+# Collect up to 180 URLs (incremental)
 python Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs_url_scraper.py --limit 180
+
+# Fresh run for exactly 60 URLs
+python Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs_url_scraper.py --fresh --limit 60
 ```
 
 Run club stats scraper alone:
 
 ```pwsh
-# Scrape stats for first 15 URLs in club_urls.csv
+# Scrape stats for first 15 URLs (incremental append)
 python Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs_scraper.py --limit 15
+
+# Fresh stats run for 25 clubs
+python Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs_scraper.py --fresh --limit 25
 ```
 
 ## Arguments
@@ -60,13 +69,17 @@ python Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs_scraper.py --limit 15
 URL scraper:
 - `--limit` (int, optional): max number of club URLs to collect.
 - `--base-url` (str, optional): base SoFIFA clubs list URL (defaults to rating-desc order).
+- `--fresh` (flag): overwrite any existing `club_urls.csv` and start clean.
 
 Club stats scraper:
 - `--limit` (int, optional): max number of clubs to process.
+- `--fresh` (flag): remove existing `club_stats.csv` before writing.
 
 Orchestrator:
 - `--url-limit` (int, optional): passed to URL scraper.
 - `--club-limit` (int, optional): passed to stats scraper.
+- `--fresh-urls` (flag): reset `club_urls.csv` before URL scraping.
+- `--fresh-stats` (flag): remove `club_stats.csv` before stats scraping.
 
 ## Data schema
 
