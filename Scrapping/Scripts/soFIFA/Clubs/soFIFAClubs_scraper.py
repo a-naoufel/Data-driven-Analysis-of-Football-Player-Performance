@@ -1,6 +1,7 @@
 import csv
 import os
 import asyncio
+import argparse
 from playwright.async_api import async_playwright
 
 
@@ -132,9 +133,9 @@ class SoFIFAClubScraper:
     """Main scraper that loops through all club URLs and saves to CSV"""
 
     def __init__(self):
-        # Always read/write inside Scrapping/Data/Clubs/
+        # Always read/write inside Scrapping/Data/soFIFA/Clubs/
         root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        data_dir = os.path.join(root_dir, "Data", "Clubs")
+        data_dir = os.path.join(root_dir, "Data", "soFIFA", "Clubs")
         os.makedirs(data_dir, exist_ok=True)
 
         self.urls_file = os.path.join(data_dir, "club_urls.csv")
@@ -245,14 +246,21 @@ class SoFIFAClubScraper:
             writer.writerow(data)
 
 
+def parse_args():
+    ap = argparse.ArgumentParser(description="SoFIFA Clubs stats scraper")
+    ap.add_argument("--limit", type=int, default=None, help="Optional number of clubs to scrape")
+    return ap.parse_args()
+
+
 async def main():
+    args = parse_args()
     scraper = SoFIFAClubScraper()
     print("=" * 60)
     print("SoFIFA Club Scraper")
     print("=" * 60)
 
     scraper.load_urls()
-    await scraper.scrape_all_clubs()  # test with 3 clubs
+    await scraper.scrape_all_clubs(limit=args.limit)
 
 
 if __name__ == "__main__":
