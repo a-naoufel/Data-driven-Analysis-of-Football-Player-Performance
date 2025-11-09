@@ -133,9 +133,6 @@ class SoFIFAClubScraper:
     """Main scraper that loops through all club URLs and saves to CSV"""
 
     def __init__(self):
-        # Always read/write inside Scrapping/Data/soFIFA/Clubs/
-        # __file__ = Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs_scraper.py
-        # parents: Clubs -> soFIFA -> Scripts -> Scrapping (4 levels up)
         scrapping_root = os.path.dirname(
             os.path.dirname(
                 os.path.dirname(
@@ -147,24 +144,21 @@ class SoFIFAClubScraper:
         os.makedirs(data_dir, exist_ok=True)
 
         self.urls_file = os.path.join(data_dir, "club_urls.csv")
-        self.output_file = os.path.join(data_dir, "club_stats.csv")
-
+        self.output_file = os.path.join(data_dir, "club_stats_raw.csv")
         self.club_urls = []
         self.results = []
 
     def load_urls(self):
-        """Load all club URLs from CSV"""
         if not os.path.exists(self.urls_file):
             raise FileNotFoundError(
                 f"club_urls.csv not found at {self.urls_file}. Run soFIFAClubs_url_scraper.py first."
             )
         with open(self.urls_file, "r", encoding="utf-8") as f:
-            next(f, None)  # skip header if present
+            next(f, None)
             self.club_urls = [line.strip() for line in f if line.strip()]
         print(f"✅ Loaded {len(self.club_urls)} club URLs")
 
     async def scrape_all_clubs(self, limit=None):
-        """Loop through all club URLs and scrape their data"""
         async with async_playwright() as p:
             browser = await p.chromium.launch(
                 headless=True,
@@ -175,7 +169,6 @@ class SoFIFAClubScraper:
                     "--disable-setuid-sandbox",
                 ],
             )
-
             context = await browser.new_context(
                 user_agent=(
                     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -186,24 +179,20 @@ class SoFIFAClubScraper:
                 locale="en-US",
                 timezone_id="America/New_York",
             )
-
             page = await context.new_page()
             await page.route(
                 "**/*",
                 lambda route: (
                     route.abort()
-                    if route.request.resource_type
-                    in ["image", "font", "stylesheet", "media"]
+                    if route.request.resource_type in ["image", "font", "stylesheet", "media"]
                     else route.continue_()
                 ),
             )
 
-            to_scrape = self.club_urls[:limit] if limit else self.club_urls
-            total = len(to_scrape)
-
-            for idx, url in enumerate(to_scrape, 1):
+            target = self.club_urls[:limit] if limit else self.club_urls
+            total = len(target)
+            for idx, url in enumerate(target, 1):
                 print(f"[{idx}/{total}] Scraping {url}")
-
                 try:
                     data = await ClubScraper.scrape_club_data(page, url)
                     self.results.append(data)
@@ -211,45 +200,21 @@ class SoFIFAClubScraper:
                     print(
                         f"  ✓ {data.get('name', 'Unknown Club')} ({data.get('league', 'Unknown League')})"
                     )
-
                 except Exception as e:
                     print(f"  ✗ Error scraping {url}: {e}")
-
             await browser.close()
 
         print(f"\n✅ Finished scraping {len(self.results)} clubs")
-        print(f"💾 Results saved to: {self.output_file}")
+        print(f"💾 Raw results saved to: {self.output_file}")
 
     def save_to_csv(self, data):
-        """Append one club to the CSV file"""
         file_exists = os.path.isfile(self.output_file)
-
-        # Enforce consistent column order
         fieldnames = [
-            "club_id",
-            "name",
-            "league",
-            "league_id",
-            "country",
-            "rating",
-            "attack_rating",
-            "midfield_rating",
-            "defense_rating",
-            "stadium",
-            "manager",
-            "manager_id",
-            "manager_url",
-            "club_worth",
-            "starting_xi_avg_age",
-            "whole_team_avg_age",
-            "rival_team",
-            "players_count",
-            "top_players",
-            "club_logo",
-            "country_flag",
-            "url",
+            "club_id","name","league","league_id","country","rating","attack_rating",
+            "midfield_rating","defense_rating","stadium","manager","manager_id","manager_url",
+            "club_worth","starting_xi_avg_age","whole_team_avg_age","rival_team","players_count",
+            "top_players","club_logo","country_flag","url"
         ]
-
         with open(self.output_file, "a", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=fieldnames)
             if not file_exists:
@@ -265,17 +230,17 @@ def parse_args():
 
 
 async def main():
-  args = parse_args()
-  scraper = SoFIFAClubScraper()
-  print("=" * 60)
-  print("SoFIFA Club Scraper")
-  print("=" * 60)
+    args = parse_args()
+    scraper = SoFIFAClubScraper()
+    print("=" * 60)
+    print("SoFIFA Club Scraper")
+    print("=" * 60)
 
-  scraper.load_urls()
-  if args.fresh and os.path.exists(scraper.output_file):
-    os.remove(scraper.output_file)
-    print("🧼 Fresh mode: existing club_stats.csv removed.")
-  await scraper.scrape_all_clubs(limit=args.limit)
+    scraper.load_urls()
+    if args.fresh and os.path.exists(scraper.output_file):
+        os.remove(scraper.output_file)
+        print("🧼 Fresh mode: existing club_stats_raw.csv removed.")
+    await scraper.scrape_all_clubs(limit=args.limit)
 
 
 if __name__ == "__main__":
