@@ -1,5 +1,6 @@
 import csv
 import os
+import re
 import asyncio
 import argparse
 from playwright.async_api import async_playwright
@@ -130,96 +131,139 @@ if (coachLink) {
 
 
 class SoFIFAClubScraper:
-    """Main scraper that loops through all club URLs and saves to CSV"""
+  """Main scraper that loops through all club URLs and saves to CSV"""
 
-    def __init__(self):
-        scrapping_root = os.path.dirname(
-            os.path.dirname(
-                os.path.dirname(
-                    os.path.dirname(os.path.abspath(__file__))
-                )
-            )
-        )
-        data_dir = os.path.join(scrapping_root, "Data", "soFIFA", "Clubs")
-        os.makedirs(data_dir, exist_ok=True)
+  def __init__(self, fresh: bool = False):
+    # Locate 'Scrapping' folder robustly
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    scrapping_root = current_dir
+    while True:
+      if os.path.basename(scrapping_root) == "Scrapping":
+        break
+      parent = os.path.dirname(scrapping_root)
+      if parent == scrapping_root:
+        raise RuntimeError("Could not locate 'Scrapping' directory above script path")
+      scrapping_root = parent
 
-        self.urls_file = os.path.join(data_dir, "club_urls.csv")
-        self.output_file = os.path.join(data_dir, "club_stats_raw.csv")
-        self.club_urls = []
-        self.results = []
+    data_dir = os.path.join(scrapping_root, "Data", "soFIFA", "Clubs")
+    os.makedirs(data_dir, exist_ok=True)
 
-    def load_urls(self):
-        if not os.path.exists(self.urls_file):
-            raise FileNotFoundError(
-                f"club_urls.csv not found at {self.urls_file}. Run soFIFAClubs_url_scraper.py first."
-            )
-        with open(self.urls_file, "r", encoding="utf-8") as f:
-            next(f, None)
-            self.club_urls = [line.strip() for line in f if line.strip()]
-        print(f"✅ Loaded {len(self.club_urls)} club URLs")
+    self.urls_file = os.path.join(data_dir, "club_urls.csv")
+    self.output_file = os.path.join(data_dir, "club_stats_raw.csv")
+    self.club_urls: list[str] = []
+    self.results: list[dict] = []
+    self.existing_urls: set[str] = set()
+    self.existing_ids: set[str] = set()
 
-    async def scrape_all_clubs(self, limit=None):
-        async with async_playwright() as p:
-            browser = await p.chromium.launch(
-                headless=True,
-                args=[
-                    "--disable-blink-features=AutomationControlled",
-                    "--disable-dev-shm-usage",
-                    "--no-sandbox",
-                    "--disable-setuid-sandbox",
-                ],
-            )
-            context = await browser.new_context(
-                user_agent=(
-                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                    "AppleWebKit/537.36 (KHTML, like Gecko) "
-                    "Chrome/120.0.0.0 Safari/537.36"
-                ),
-                viewport={"width": 1920, "height": 1080},
-                locale="en-US",
-                timezone_id="America/New_York",
-            )
-            page = await context.new_page()
-            await page.route(
-                "**/*",
-                lambda route: (
-                    route.abort()
-                    if route.request.resource_type in ["image", "font", "stylesheet", "media"]
-                    else route.continue_()
-                ),
-            )
+    # Load existing progress unless fresh run requested
+    if not fresh and os.path.exists(self.output_file):
+      self._load_existing_progress()
 
-            target = self.club_urls[:limit] if limit else self.club_urls
-            total = len(target)
-            for idx, url in enumerate(target, 1):
-                print(f"[{idx}/{total}] Scraping {url}")
-                try:
-                    data = await ClubScraper.scrape_club_data(page, url)
-                    self.results.append(data)
-                    self.save_to_csv(data)
-                    print(
-                        f"  ✓ {data.get('name', 'Unknown Club')} ({data.get('league', 'Unknown League')})"
-                    )
-                except Exception as e:
-                    print(f"  ✗ Error scraping {url}: {e}")
-            await browser.close()
+  @staticmethod
+  def _extract_club_id_from_url(url: str) -> str:
+    m = re.search(r"/team/(\d+)/", url)
+    return m.group(1) if m else ""
 
-        print(f"\n✅ Finished scraping {len(self.results)} clubs")
-        print(f"💾 Raw results saved to: {self.output_file}")
+  def _load_existing_progress(self) -> None:
+    try:
+      with open(self.output_file, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+          u = (row.get("url") or "").strip()
+          cid = (row.get("club_id") or "").strip()
+          if u:
+            self.existing_urls.add(u)
+          if cid:
+            self.existing_ids.add(cid)
+      print(f"[resume] Loaded {len(self.existing_urls)} existing clubs from {os.path.basename(self.output_file)}")
+    except Exception as e:
+      print(f"[resume] Warning: couldn't read existing clubs ({e})")
 
-    def save_to_csv(self, data):
-        file_exists = os.path.isfile(self.output_file)
-        fieldnames = [
-            "club_id","name","league","league_id","country","rating","attack_rating",
-            "midfield_rating","defense_rating","stadium","manager","manager_id","manager_url",
-            "club_worth","starting_xi_avg_age","whole_team_avg_age","rival_team","players_count",
-            "top_players","club_logo","country_flag","url"
-        ]
-        with open(self.output_file, "a", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            if not file_exists:
-                writer.writeheader()
-            writer.writerow(data)
+  def load_urls(self) -> None:
+    if not os.path.exists(self.urls_file):
+      raise FileNotFoundError(
+        f"club_urls.csv not found at {self.urls_file}. Run soFIFAClubs_url_scraper.py first."
+      )
+    with open(self.urls_file, "r", encoding="utf-8") as f:
+      next(f, None)
+      self.club_urls = [line.strip() for line in f if line.strip()]
+    print(f"✅ Loaded {len(self.club_urls)} club URLs")
+
+  async def scrape_all_clubs(self, limit: int | None = None) -> None:
+    async with async_playwright() as p:
+      browser = await p.chromium.launch(
+        headless=True,
+        args=[
+          "--disable-blink-features=AutomationControlled",
+          "--disable-dev-shm-usage",
+          "--no-sandbox",
+          "--disable-setuid-sandbox",
+        ],
+      )
+      context = await browser.new_context(
+        user_agent=(
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+          "AppleWebKit/537.36 (KHTML, like Gecko) "
+          "Chrome/120.0.0.0 Safari/537.36"
+        ),
+        viewport={"width": 1920, "height": 1080},
+        locale="en-US",
+        timezone_id="America/New_York",
+      )
+      page = await context.new_page()
+      await page.route(
+        "**/*",
+        lambda route: (
+          route.abort()
+          if route.request.resource_type in ["image", "font", "stylesheet", "media"]
+          else route.continue_()
+        ),
+      )
+
+      # Filter already-scraped clubs by URL or club_id parsed from URL
+      filtered: list[str] = []
+      skipped = 0
+      for u in self.club_urls:
+        cid = self._extract_club_id_from_url(u)
+        if (u in self.existing_urls) or (cid and cid in self.existing_ids):
+          skipped += 1
+          continue
+        filtered.append(u)
+
+      target_all = filtered
+      target = target_all[:limit] if limit else target_all
+      if skipped:
+        print(f"[resume] Skipping {skipped} already-scraped clubs; remaining {len(target_all)}")
+      total = len(target)
+      for idx, url in enumerate(target, 1):
+        print(f"[{idx}/{total}] Scraping {url}")
+        try:
+          data = await ClubScraper.scrape_club_data(page, url)
+          self.results.append(data)
+          self.save_to_csv(data)
+          print(
+            f"  ✓ {data.get('name', 'Unknown Club')} ({data.get('league', 'Unknown League')})"
+          )
+        except Exception as e:
+          print(f"  ✗ Error scraping {url}: {e}")
+      await browser.close()
+
+    print(f"\n✅ Finished scraping {len(self.results)} clubs")
+    print(f"💾 Raw results saved to: {self.output_file}")
+
+  def save_to_csv(self, data: dict) -> None:
+    file_exists = os.path.isfile(self.output_file)
+    fieldnames = [
+      "club_id","name","league","league_id","country","rating","attack_rating",
+      "midfield_rating","defense_rating","stadium","manager","manager_id","manager_url",
+      "club_worth","starting_xi_avg_age","whole_team_avg_age","rival_team","players_count",
+      "top_players","club_logo","country_flag","url"
+    ]
+    with open(self.output_file, "a", newline="", encoding="utf-8") as f:
+      writer = csv.DictWriter(f, fieldnames=fieldnames)
+      if not file_exists:
+        writer.writeheader()
+      writer.writerow(data)
 
 
 def parse_args():
@@ -231,7 +275,7 @@ def parse_args():
 
 async def main():
     args = parse_args()
-    scraper = SoFIFAClubScraper()
+    scraper = SoFIFAClubScraper(fresh=args.fresh)
     print("=" * 60)
     print("SoFIFA Club Scraper")
     print("=" * 60)
