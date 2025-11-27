@@ -46,7 +46,7 @@ async def main():
     print("=" * 60)
     print("🎉 ALL DONE — CSV files are ready!")
     print("=" * 60)
-    print("➡ club_urls.csv and club_stats.csv saved in: Scrapping/Data/soFIFA/Clubs/")
+    print("➡ club_urls.csv and club_stats.csv saved in: Data/soFIFA/Clubs/")
 
 
 if __name__ == "__main__":

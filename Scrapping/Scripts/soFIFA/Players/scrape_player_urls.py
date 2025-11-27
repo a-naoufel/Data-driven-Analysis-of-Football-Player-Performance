@@ -143,17 +143,17 @@ class PlayerURLScraper:
         return self.all_player_urls
 
     def save_urls_to_csv(self, filename: str | None = None):
-        """Save all player URLs to CSV file in Scrapping/Data/soFIFA/Players/player_urls.csv"""
+        """Save all player URLs to CSV file in Data/soFIFA/Players/player_urls.csv"""
 
         # Get the absolute path of the current script (e.g. Scrapping/Scripts/soFIFA/Players/)
         current_dir = os.path.dirname(os.path.abspath(__file__))
 
-        # Go three levels up to reach the Scrapping folder (Players -> soFIFA -> Scripts -> Scrapping)
-        scrapping_root = os.path.abspath(os.path.join(current_dir, "..", "..", ".."))
+        # Go four levels up to reach the repository root (Players -> soFIFA -> Scripts -> Scrapping -> repo)
+        repo_root = os.path.abspath(os.path.join(current_dir, "..", "..", "..", ".."))
 
-        # Build the target data directory path (Scrapping/Data/soFIFA/Players)
+        # Build the target data directory path (Data/soFIFA/Players)
         data_dir = os.path.join(
-            scrapping_root,
+            repo_root,
             "Data",
             "soFIFA",
             "Players",
@@ -185,7 +185,7 @@ class PlayerURLScraper:
 def parse_args():
     ap = argparse.ArgumentParser(description="Scrape SoFIFA player profile URLs")
     ap.add_argument("--limit", type=int, default=None, help="Stop after collecting exactly this many URLs")
-    ap.add_argument("--output-file", default="player_urls.csv", help="Output CSV filename (saved under Scrapping/Data/soFIFA/Players)")
+    ap.add_argument("--output-file", default="player_urls.csv", help="Output CSV filename (saved under Data/soFIFA/Players)")
     return ap.parse_args()
 
 

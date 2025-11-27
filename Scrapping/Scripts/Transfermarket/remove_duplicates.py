@@ -1,8 +1,8 @@
 """Filter a previously scraped Transfermarkt players CSV copy by removing
 duplicates only, while keeping ALL attributes/columns intact.
 
-Default input: Scrapping/Data/Transfermarkt/Players/players_from_365 copy.csv
-Output:       Scrapping/Data/Transfermarkt/Players/players_from_365.filtered.csv
+Default input: Data/Transfermarkt/Players/players_from_365 copy.csv
+Output:       Data/Transfermarkt/Players/players_from_365.filtered.csv
 
 Rules:
 - Only drop duplicates; do not drop columns.
@@ -15,12 +15,19 @@ import os
 import argparse
 import pandas as pd
 
+_repo_root = os.path.dirname(
+    os.path.dirname(
+        os.path.dirname(
+            os.path.dirname(os.path.abspath(__file__))
+        )
+    )
+)
 DEFAULT_INPUT = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+    _repo_root,
     "Data", "Transfermarkt", "Players", "players_from_365 copy.csv"
 )
 DEFAULT_OUTPUT = os.path.join(
-    os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+    _repo_root,
     "Data", "Transfermarkt", "Players", "players_from_365.filtered.csv"
 )
 

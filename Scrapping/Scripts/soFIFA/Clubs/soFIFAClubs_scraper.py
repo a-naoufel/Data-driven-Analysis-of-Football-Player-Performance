@@ -134,7 +134,7 @@ class SoFIFAClubScraper:
   """Main scraper that loops through all club URLs and saves to CSV"""
 
   def __init__(self, fresh: bool = False):
-    # Locate 'Scrapping' folder robustly
+    # Locate 'Scrapping' folder robustly, then use its parent as repo root
     current_dir = os.path.dirname(os.path.abspath(__file__))
     scrapping_root = current_dir
     while True:
@@ -145,7 +145,8 @@ class SoFIFAClubScraper:
         raise RuntimeError("Could not locate 'Scrapping' directory above script path")
       scrapping_root = parent
 
-    data_dir = os.path.join(scrapping_root, "Data", "soFIFA", "Clubs")
+    project_root = os.path.dirname(scrapping_root)
+    data_dir = os.path.join(project_root, "Data", "soFIFA", "Clubs")
     os.makedirs(data_dir, exist_ok=True)
 
     self.urls_file = os.path.join(data_dir, "club_urls.csv")

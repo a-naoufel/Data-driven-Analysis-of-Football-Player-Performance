@@ -15,12 +15,12 @@ class SoFIFAScraper:
         # Get current script's directory (e.g., Scrapping/Scripts/soFIFA/Players/)
         current_dir = os.path.dirname(os.path.abspath(__file__))
 
-        # Go three levels up to reach the Scrapping folder (Players -> soFIFA -> Scripts -> Scrapping)
-        scrapping_root = os.path.abspath(os.path.join(current_dir, "..", "..", ".."))
+        # Go four levels up to reach the repository root (Players -> soFIFA -> Scripts -> Scrapping -> repo)
+        repo_root = os.path.abspath(os.path.join(current_dir, "..", "..", "..", ".."))
 
-        # Build path to the target data directory (Scrapping/Data/soFIFA/Players)
+        # Build path to the target data directory (Data/soFIFA/Players)
         data_dir = os.path.join(
-            scrapping_root,
+            repo_root,
             "Data",
             "soFIFA",
             "Players",

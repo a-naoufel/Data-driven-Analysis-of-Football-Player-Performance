@@ -7,8 +7,11 @@ import argparse
 
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
-clubs_csv = os.path.join(base_dir, "../../Data/Clubs/transfermarkt_clubs_sofifa_only.csv")
-out_dir = os.path.join(base_dir, "../../Data/Transfermarkt")
+# Project root (Transfermarket -> Scripts -> Scrapping -> repo root)
+project_root = os.path.abspath(os.path.join(base_dir, "..", "..", ".."))
+# Paths under root-level Data directory
+clubs_csv = os.path.join(project_root, "Data", "Transfermarkt", "Clubs", "transfermarkt_clubs_sofifa_only.csv")
+out_dir = os.path.join(project_root, "Data", "Transfermarkt")
 out_csv_raw = os.path.join(out_dir, "players_from_365.csv")
 out_csv_min = os.path.join(out_dir, "players_from_365.filtered.csv")
 

@@ -17,9 +17,12 @@ def normalize_text(s: str) -> str:
 
 # === Paths ===
 base_dir = os.path.dirname(os.path.abspath(__file__))
-input_csv = os.path.join(base_dir, "../../Data/Clubs/sofifa_clubs_clean.csv")
-output_csv_raw = os.path.join(base_dir, "../../Data/Clubs/transfermarkt_dynamic_leagues.csv")
-output_csv_sofifa_only = os.path.join(base_dir, "../../Data/Clubs/transfermarkt_clubs_sofifa_only.csv")
+# Project root (Transfermarket -> Scripts -> Scrapping -> repo root)
+project_root = os.path.abspath(os.path.join(base_dir, "..", "..", ".."))
+# Root-level Data paths
+input_csv = os.path.join(project_root, "Data", "soFIFA", "Clubs", "club_stats_cleaned.csv")
+output_csv_raw = os.path.join(project_root, "Data", "Transfermarkt", "Clubs", "transfermarkt_dynamic_leagues.csv")
+output_csv_sofifa_only = os.path.join(project_root, "Data", "Transfermarkt", "Clubs", "transfermarkt_clubs_sofifa_only.csv")
 
 # === Load SoFIFA clubs ===
 if not os.path.exists(input_csv):

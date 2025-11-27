@@ -13,9 +13,9 @@ class ClubURLScraper:
         self.max_offset = 660  # Last valid page (11 * 60)
         self.limit = limit  # optional max number of clubs to collect
 
-        # Prepare output path (incremental writes) under Scrapping/Data/soFIFA/Clubs
+        # Prepare output path (incremental writes) under Data/soFIFA/Clubs
         # __file__ = Scrapping/Scripts/soFIFA/Clubs/soFIFAClubs_url_scraper.py
-        # parents: Clubs -> soFIFA -> Scripts -> Scrapping (4 levels up)
+        # parents: Clubs -> soFIFA -> Scripts -> Scrapping (4 levels up) -> repo (5th)
         scrapping_root = os.path.dirname(
             os.path.dirname(
                 os.path.dirname(
@@ -23,7 +23,8 @@ class ClubURLScraper:
                 )
             )
         )
-        data_dir = os.path.join(scrapping_root, "Data", "soFIFA", "Clubs")
+        project_root = os.path.dirname(scrapping_root)
+        data_dir = os.path.join(project_root, "Data", "soFIFA", "Clubs")
         os.makedirs(data_dir, exist_ok=True)
         self.output_file = os.path.join(data_dir, "club_urls.csv")
 
