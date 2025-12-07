@@ -1,0 +1,27 @@
+import pandas as pd
+
+# Load your dataset
+df = pd.read_csv("merged_players_clean.csv")  # change to your file name
+
+# Columns to remove
+cols_to_drop = [
+    "player_id_sofifa",
+    "full_name",
+    "positions",
+    "specialities",
+    "club_league_name",
+    "play_styles",
+    "std_name",
+    "league_name",
+    "club_id_tm",
+    "player_name",
+    "player_id_tm",
+    "player_url",
+    "position"
+]
+
+# Drop them (errors='ignore' avoids crashing if any column is missing)
+df = df.drop(columns=cols_to_drop, errors="ignore")
+
+# Save cleaned dataset
+df.to_csv("merged_players_clean0.csv", index=False)
